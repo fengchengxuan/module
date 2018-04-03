@@ -1,0 +1,30 @@
+.anav-3{
+    background: #44baf7;
+}
+.content-right-box{
+    height: 524px;
+}
+.content-right-box-title-bg{
+    height: 480px;
+}
+.content-right-text-box2{
+    height: 480px;
+}
+.show_t{
+    margin: 20px auto 14px auto;
+}
+.morets{
+    position: relative;
+    width: 846px;
+    text-align: right;
+}
+.morets a{
+    color: #F0DC00;
+    font-size: 12px;
+    position: absolute;
+    top: -18px;
+    right:2px
+}
+.span1{
+    letter-spacing: 0;
+}

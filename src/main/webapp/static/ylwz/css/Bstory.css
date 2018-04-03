@@ -1,0 +1,121 @@
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+.content_bg{
+    width: 100%;
+    background: #f5f5f5;
+}
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.tab_box .hide{display:none;}
+#content .box ul{
+    height: 100px;
+    padding-top: 20px;
+}
+#content .box ul li{
+    width: 196px;
+    padding: 10px 10px;
+    margin: 0 0 0 20px;
+    height: 80px;
+    background: #fff;
+    float: left;
+    text-align: center;
+}
+#content .box ul li img{
+    width: 196px;
+    height: 60px;
+}
+#content .box ul li img.cimg{
+    display: none;
+}
+#content .box ul li img.oimg{
+    display: block;
+}
+#content .box ul li a{
+    font-size: 14px;
+    color: #000;
+}
+#content .box ul li.current{
+    background: #49B243;
+}
+#content .box ul li.current img.cimg{
+    display: block;
+}
+#content .box ul li.current img.oimg{
+    display: none;
+}
+#content .box ul li.current a{
+    color: #fff;
+}
+
+.tab_box{
+    margin-top: 20px;
+}
+.tab_box div{
+    width: 1180px;
+    padding: 10px 10px 30px 10px;
+    margin: 0 auto;
+    background: #fff;
+}
+.tab_box div p{
+    font-size: 14px;
+    color: #656565;
+    text-indent: 2em;
+    line-height: 21px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.tab_box div p.title{
+    font-weight: bold;
+    color: #333;
+}
+.tab_box div p.mtb{
+    margin: 25px 0;
+}
+
+/*共同见证*/
+.tab_box .imglist{
+    height: 200px;
+    padding: 0 0 0 10px;
+}
+.tab_box .imglist div{
+    float: left;
+    padding: 0;
+}
+.tab_box .imglist .imglt{
+    width: 200px;
+    height: 200px;
+}
+.tab_box .imglist .imgln{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+}
+.tab_box .imglist .mleft{
+    margin-left: 20px;
+}
+.tab_box .imglist .imgln .imglnword{
+    width: 300px;
+    height: 30px;
+    background: #49B243;
+    opacity: 0.8;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+.tab_box .imglist .imgln:hover .imglnword{
+    display: block;
+}

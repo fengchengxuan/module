@@ -1,0 +1,326 @@
+.img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*轮播图*/
+.flexslider {
+    margin: 0 auto 0;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.flexslider .slides li {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-direction-nav a {
+    width: 70px;
+    height: 70px;
+    line-height: 99em;
+    overflow: hidden;
+    margin: -35px 20px;
+    display: block;
+    background: url(../../../static/ylwz/images/blr.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s ease;
+}
+
+.flex-direction-nav .flex-next {
+    background-position: 0 -70px;
+    right: 0;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 0;
+}
+
+.flexslider:hover .flex-next {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-prev {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    margin: 0 2px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.flex-control-paging li a {
+    display: block;
+    height: 10px;
+    overflow: hidden;
+    background: #FFF;
+    width: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+    background: #4ab344;
+}
+
+.flexslider .slides a img {
+    width: 100%;
+    height: 650px;
+    display: block;
+}
+
+/*中间部分*/
+.content_top{
+    width: 100%;
+    height: 200px;
+    background: #f5f5f5;
+}
+.content_topc{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content_topc ul li{
+    float: left;
+    margin: 26px 50px 0 50px;
+}
+
+/*中间部分*/
+.content_center{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*中间左侧boxtab*/
+.content_cLeft{
+    width: 460px;
+    float: left;
+    margin-top: 10px;
+}
+.content_cCenter{
+    width: 460px;
+    margin-left: 480px;
+    padding-top: 10px;
+}
+.box a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+:focus{outline:0;}
+.tab_menu{
+    overflow:hidden;
+    border-bottom: 1px solid #dedede;
+}
+.tab_menu li{
+    width:82px;
+    float:left;
+    margin-left: 10px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    cursor:pointer;
+}
+.tab_menu li:first-child{margin-left: 0;}
+.tab_menu li.current{
+    border-bottom: 1px solid #49B343;
+}
+.tab_menu li a{
+    font-size: 16px;
+    color:#999;
+    text-decoration:none;
+    letter-spacing: 1px;
+}
+.tab_menu li.current a{
+    color:#49B343;
+}
+.tab_box{
+    padding-bottom: 10px;
+}
+.tab_box_header{
+    height: 140px;
+    margin-top: 8px;
+}
+.tab_box_header img{
+    width: 186px;
+    height: 140px;
+}
+.tab_box_header .right{
+    float: right;
+}
+.tab_box_header .right .title a{
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+}
+.tab_box_header .right .title a:hover{
+    color: #EB2323;
+}
+.tab_box_header .right .text{
+    width: 268px;
+    font-size: 12px;
+    color: #656565;
+    text-indent: 2em;
+    line-height: 21px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.info a{
+    font-size: 12px;
+    color: #656565;
+}
+.info a:hover{
+    color: #EB2323;;
+}
+.tab_box_list{
+    margin-top: 18px;
+}
+.tab_box_list ul li{
+    height: 68px;
+    margin-top: 8px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+.tab_box_list ul li:last-child{border-bottom: none;}
+.tblist_date{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: #f2f2f2;
+    text-align: center;
+    color: #656565;
+}
+.tblist_date .date_day{
+    display: block;
+    margin-top: 5px;
+    font-size: 24px;
+}
+.tblist_date .date_ym{
+    display: block;
+    font-size: 12px;
+}
+.tab_box_lcon{
+    width: 386px;
+    float: right;
+    text-align: left;
+    margin-left: 3px;
+}
+.tlist_title a{
+    font-size: 14px;
+    color: #656565;
+    letter-spacing: 1px;
+}
+.tlist_title a:hover{
+    color: #EB2424;
+}
+.tlist_text{
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7F7F7F;
+}
+.tab_box .hide{display:none;}
+
+/*中间的右侧*/
+.content_cRight{
+    float: right;
+    width: 240px;
+    margin-top: 20px;
+}
+.cRtitle{
+    width: 240px;
+    text-align: center;
+    font-size: 16px;
+    color: #4ab344;
+}
+.cRtitle span{
+    display: block;
+    width: 3px;
+    height: 20px;
+    float: left;
+    background: #4ab344;
+}
+.cRlist{
+    width: 240px;
+    height: 250px;
+    background: #f5f5f5;
+}
+.cRlimg{
+    margin-top: 8px;
+    padding-top: 20px;
+}
+.cRlimg img{
+    width: 240px;
+    height: 150px;
+}
+.cRltitle{
+    font-size: 14px;
+    line-height: 26px;
+    color: #656565;
+    text-align: center;
+}
+.cRltext{
+    padding-left: 8px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #7F7F7F;
+}
+
+.new,.hot{
+    position: relative;
+}
+.new img,.hot img{
+    width: 16px;
+    height: 9px;
+    position: absolute;
+    top: 7px;
+}
+
+/*扫二维码*/
+.content_erwei{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background: url("../../../static/ylwz/images/swei.jpg");
+}
+
+/*友情链接*/
+.youqing{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.youqing ul li{
+    float: left;
+    font-size: 14px;
+    color: #49B343;
+    margin-left: 30px;
+}
+.youqing ul li span{
+    line-height: 100px;
+}
+.youqing ul li img{
+    margin-top: 30px;
+}
+.youqing ul li:first-child{
+    margin-left: 0;
+}

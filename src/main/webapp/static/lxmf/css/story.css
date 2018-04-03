@@ -1,0 +1,150 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.tab_box .hide{
+    display: none;
+}
+.story{
+    position: relative;
+}
+.story .tab_menu{
+    position: absolute;
+    right: -36px;
+    top: 69px;
+}
+.story .tab_menu li{
+    margin-top: 5px;
+    position: relative;
+    left: 95px;
+}
+.story .tab_menu li a{
+
+}
+.story .tab_menu li.current,.story .tab_menu li:hover{
+    left: 0;
+}
+.banner{
+    width: 1200px;
+    height: 400px;
+    background: url("../../../static/lxmf/images/banner_07.jpg");
+}
+.article{
+    width: 1200px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    background: #f5f5f5;
+}
+.article p{
+    font-size: 14px;
+    color: #656565;
+    display: block;
+    width: 1140px;
+    margin: 22px auto 0 auto;
+    line-height: 22px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.article p:first-child{
+    margin-top: 0;
+    padding-top: 8px;
+}
+/*合作伙伴*/
+.story_list_title{
+    width: 240px;
+    height: 68px;
+    background: url("../../../static/lxmf/images/sttitle_01.jpg");
+}
+.story_lists{
+    margin-top: -10px;
+}
+.story_lists ul{
+    height: 530px;
+    margin-top: 15px;
+}
+.story_lists ul li{
+    float: left;
+    margin-left: 20px;
+}
+.story_lists ul li:first-child{
+    margin-left: 0;
+}
+.story_lists li{
+    width: 285px;
+    height: 530px;
+    background: #F5F5F5;
+    overflow: hidden;
+}
+
+.story_lists_img{
+    width: 285px;
+    height: 168px;
+}
+.story_lists_img img{
+    display:block;
+    vertical-align:top;
+}
+.story_lists_inner{
+    width: 285px;
+    height: 362px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    box-sizing: border-box;
+}
+.story_lists_inner:hover{
+    border: 1px solid #E92C2C;
+    border-top: none;
+    box-sizing: border-box;
+}
+.story_lists_title{
+    padding-left: 5px;
+}
+.story_lists_title,.story_lists_title a{
+    font-size: 16px;
+    color: #E92C2C;
+    height: 30px;
+    line-height: 30px;
+}
+.story_lists_info{
+    height: 119px;
+    margin-top: 8px;
+}
+.story_lists_infoimg{
+    width: 110px;
+    height: 119px;
+    float: right;
+    margin-right: 5px;
+}
+.story_lists_infoli{
+    font-size: 14px;
+    padding-left: 5px;
+    color: #656565;
+    line-height: 20px;
+}
+/*代理感言*/
+.recollections{
+    width: 250px;
+    height: 158px;
+    margin: 25px auto 0 auto;
+    background: #ffffff;
+    border-radius: 6px;
+    position: relative;
+}
+.recollections-img{
+    width: 135px;
+    height: 34px;
+    position: absolute;
+    left: -14px;
+    top: -18px;
+}
+.recollections-text{
+    font-size: 12px;
+    color: #656565;
+    padding: 20px 8px 0 8px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 1px;
+    line-height: 16px;
+}

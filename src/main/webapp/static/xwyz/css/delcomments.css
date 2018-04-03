@@ -1,0 +1,16 @@
+.left-li8{
+    color: #158DD8;
+}
+.anav-1{
+    background: #44baf7;
+}
+tr:nth-of-type(even){
+    background: white;
+
+}
+tr:nth-of-type(odd){
+    background: #f7f7f7;
+}
+.contentbox-table1 tbody td{
+    height: 60px;
+}

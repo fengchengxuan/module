@@ -1,0 +1,240 @@
+.content_bg{
+    width: 100%;
+    background: #feeff3;
+    padding-top: 10px;
+}
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content_top{
+    height: 390px;
+}
+.content_topr{
+    float: right;
+}
+.video{
+    width: 970px;
+    height: 390px;
+    float: left;
+}
+.videolist{
+    float: right;
+    margin-right: 15px;
+}
+.videolist li{
+    height: 130px;
+}
+.videolist li a{
+    display: block;
+    width: 236px;
+    height: 125px;
+    /*border: 1px solid #dbdbdb;*/
+    position: relative;
+}
+.videolist li a img{
+    width: 236px;
+    height: 121px;
+    border: 1px solid #dbdbdb;
+}
+.videolist li a span{
+    display: block;
+    width: 236px;
+    height: 123px;
+    background: #000;
+    opacity: 0.4;
+    border: 1px solid #dbdbdb;
+    position: absolute;
+    bottom: 0;
+}
+.videolist li.current a img{
+    width: 236px;
+    height: 121px;
+    border: 1px solid #f76188;
+}
+.videolist li.current a span{
+    display: none;
+}
+.videobox{
+    width: 700px;
+    height: 390px;
+    float: left;
+}
+.palyimg{
+    width: 19px;
+    height: 20px;
+    padding-top: 4px;
+    float: left;
+}
+.palyimg img{
+    width: 19px;
+    height: 20px;
+}
+.tab_box .hide{
+    display: none;
+}
+
+.content_center{
+    margin-top: 15px;
+}
+.content_center .title{
+    margin-left: 6px;
+    font-size: 20px;
+    color: #F75F86;
+    line-height: 28px;
+}
+.linsttitle{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+hr{
+    height: 1px;
+    margin-top: 3px;
+    width: 1200px;
+    border: none;
+    color: #F75F87;
+    border-bottom: 2px solid #F75F87;
+}
+.videos{
+    height: 424px;
+    margin-top: 15px;
+    position: relative;
+}
+.videoslist{
+    width: 229px;
+    height: 428px;
+    float: right;
+}
+.videoslist li{
+    width: 225px;
+    height: 100px;
+    margin-top: 4px;
+    border: 2px solid #f76087;
+    position: relative;
+}
+.videoslist li a img{
+    width: 225px;
+    height: 78px;
+}
+.videoslist li a span.nochbg{
+    width: 225px;
+    height: 100px;
+    display: block;
+    background: #000000;
+    opacity: 0.4;
+    position: absolute;
+    top:0;
+}
+.videoslist li.current a span.nochbg{
+    display: none;
+}
+.videoslist li .use_vdo,.videoslist li .pro_vdo{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    width: 111px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.chooce{
+    position: absolute;
+    bottom: -1px;
+}
+.videoslist li .cen_vdo{
+    width: 2px;
+    height: 16px;
+    overflow: hidden;
+    float: left;
+}
+.videoslist li .cen_vdo,.videoslist li.current .use_vdo{
+    color: #F75F87;
+}
+.videolist1 li.current a{
+    color: #F75F87;
+}
+.videosbox1 ul{
+    height: 205px;
+}
+.videosbox1 ul li{
+    width: 303px;
+    height: 205px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    background: #fff;
+    margin-left: 20px;
+}
+.videosbox1 ul li img{
+    width: 303px;
+    height: 170px;
+}
+.videosbox1 ul li div{
+    width: 303px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.videosbox1 ul li:hover{
+    color: #F75F87;
+    -moz-box-shadow:0 0 20px 0 #f0bcc9;
+    -webkit-box-shadow:0 0 20px 0 #f0bcc9;
+    box-shadow:0 0 20px 0 #f0bcc9;
+}
+#prov1{
+    display: none;
+}
+.ptitleimg{
+    width: 49px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 4px;
+    line-height: 30px;
+    position: absolute;
+    top:0;
+    background: url("../../../static/purijoy/images/pli_t.png");
+}
+.vdolist li{
+    position: relative;
+}
+.videosbox1 ul li .videoplay{
+    width: 34px;
+    height: 34px;
+    background: url("../../../static/purijoy/images/pvplay.png");
+    position: absolute;
+    bottom: 40px;
+    left: 6px;
+    display: none;
+}
+.videosbox1 ul li:hover .videoplay{
+    display: block;
+}
+.videols{
+    width: 948px;
+    height: 529px;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    display: none;
+}
+.videols video{
+    position: relative;
+}
+#close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    display: none;
+    background: url("../../../static/purijoy/images/close_02.png") no-repeat center;
+}
+.videols:hover #close{
+    display: block;
+}

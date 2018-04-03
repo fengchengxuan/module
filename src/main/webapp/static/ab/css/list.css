@@ -1,0 +1,125 @@
+#content{
+    width: 1200px;
+    min-height: 1510px;
+    margin: 0 auto;
+    position: relative;
+}
+/*页数*/
+.pages{
+    width: 895px;
+    font-size: 12px;
+    color: #656565;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+}
+.pages span{
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+/*左边部分*/
+.content-left{
+    width: 895px;
+}
+.newslis{
+    height: 120px;
+    overflow: hidden;
+}
+.newslis-img{
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    float: left;
+}
+.newslis-inner{
+    margin-left: 210px;
+}
+.newslis-title{
+    width: 668px;
+    height: 26px;
+    line-height: 26px;
+}
+.newslis-title .date{
+    color: #999999;
+    font-size: 12px;
+    float: right;
+}
+.newslis-title a{
+    font-size: 16px;
+    color: #333333;
+}
+.newslis-title a:hover{
+    color: #E52121;
+}
+.newslis-text{
+    width: 668px;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    line-height: 23px;
+    font-size: 14px;
+    color: #656565;
+}
+.newslis-text a{
+    color: #999999;
+}
+.newslis-text a:hover{
+    color: #E52121;
+}
+.content-left hr{
+    width: 100%;
+    border: none;
+    height: 0;
+    border-bottom: 1px solid #EDEDED;
+    margin: 10px 0;
+}
+
+/*右边部分*/
+.content-right{
+    width: 285px;
+    float: right;
+}
+.newslist{
+    width: 285px;
+}
+.newslist ul li{
+    width: 285px;
+    height: 350px;
+    margin:0 0 20px 0;
+    background: #ffffff;
+}
+.newslist ul li:first-child{
+    margin-left: 0;
+}
+.newslist ul li{
+    box-shadow: 0 1px 10px 0 #dbdbdb;
+}
+.newslist ul li:hover{
+    box-shadow: 0 1px 10px 2px #aacdf3;
+}
+.list-inner{
+    padding-top: 20px;
+    width: 245px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333333;
+}
+.listimg,.listimg img{
+    width: 245px;
+    height: 163px;
+}
+.list-li{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.list-lileft,.list-liright{
+    float: left;
+}
+.list-liright{
+    margin-left: 20px;
+}
+.price{
+    color: #E52B2B;
+}

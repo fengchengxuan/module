@@ -1,0 +1,98 @@
+.content-right-box{
+    height: 475px;
+}
+.content-right-box-title-bg{
+    height: 430px;
+}
+.content-right-text-box2{
+    height:430px;
+}
+.content-right-text2-box{
+    height: 121px;
+}
+.show_t{
+    margin: 20px auto 14px auto;
+    width: 970px;
+}
+.morets{
+    position: relative;
+    width: 970px;
+    text-align: right;
+}
+.morets a{
+    color: #1b8bea;
+    font-size: 12px;
+    position: absolute;
+    top: -24px;
+    right:2px
+}
+.Pblem .students{
+    width: 252px;
+    height: 214px;
+}
+.content-right-box-title1{
+    padding-left:15px;
+
+}
+#content{
+    height: 3570px;
+}
+.Pblem .students>div{
+    clear: both;
+    width: 253px;
+    height: 208px;
+}
+.students{
+    width: 242px;
+    height: 214px;
+    margin-top: 16px;
+    background: url("../../../static/xwyz/images/Study.png") no-repeat;
+}
+.shbox>img{
+    width: 232px;
+    height: 163px;
+}
+.anav-3{
+    background: transparent;
+}
+.anav-5{
+    background: #44baf7;
+}
+.EPblem{
+    width: 260px;
+    background: rgba(234,56,65,0.8);
+    border: 2px solid #ea3841;
+    margin: 60px 0 0 -6px;
+    position: relative;
+}
+.img_title{
+    width: 274px;
+    height: 77px;
+    background: url("../../../static/xwyz/images/stu_star.png")no-repeat;
+    position: absolute;
+    top: -53px;
+    right: -6px;
+}
+.EPblem_list{
+    width: 250px;
+    margin: 20px auto 10px auto;
+}
+.EPblem_list ul li{
+    width: 250px;
+    height: 208px;
+    margin-top: 11px;
+    background: #fff;
+}
+.EPblem_list ul li img{
+    margin: 10px 0 0 8px;
+    width: 232px;
+    height: 163px;
+}
+.EPblem_list ul li span{
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+    color: #333;
+}

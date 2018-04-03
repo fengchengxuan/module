@@ -1,0 +1,148 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 18px;
+}
+.content-top{
+    height: 404px;
+}
+.content-top-left{
+    width: 400px;
+    height: 404px;
+    background: #E6E6E6;
+    float: left;
+}
+.content-top-right{
+    width: 790px;
+    float: right;
+}
+.content-tleft-img{
+    height: 30px;
+}
+.content-tleft-inner{
+    padding: 0 10px;
+}
+.ctleft-inner-title{
+    height: 46px;
+    line-height: 23px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+}
+
+.list-li{
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 4px;
+}
+.lliimg img{
+    float: left;
+    display: block;
+    width: 17px;
+    height: 18px;
+    margin-top: 4px;
+}
+.list-li .list-liimg-l,.list-li img{
+    float: left;
+}
+.list-lileft,.list-liright{
+    float: left;
+}
+.list-liright{
+    margin-left: 20px;
+}
+.price{
+    color: #E52B2B;
+}
+
+/*选项卡*/
+.content-inner{
+    margin-top: 20px;
+}
+.product .tab_menu{
+    width: 100%;
+    height: 39px;
+    background: #F3F3F3;
+    border-bottom: 1px solid #1F85DB;
+}
+.product .tab_menu li{
+    width: 120px;
+    height: 39px;
+    line-height: 39px;
+    float: left;
+}
+.product .tab_menu li a{
+    display: block;
+    width: 120px;
+    height: 39px;
+    background: #F3F3F3;
+    font-size: 14px;
+    color: #656565;
+    text-align: center;
+}
+.product .tab_menu li.current{
+    background: #1F85DA;
+}
+.product .tab_menu li.current a{
+    background: #1F85DA;
+    color: #ffffff;
+}
+.tab_box .hide{
+    display: none;
+}
+.product_imgs{
+    margin-top: 6px;
+}
+.product_imgs img{
+    display: block;
+    margin: 3px auto;
+}
+.product_imgs2{
+    margin-top: 6px;
+}
+.product_imgs2 img{
+    display: block;
+    margin: 0 auto;
+}
+.QandA_list{
+    padding-left: 45px;
+}
+.user{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.user>div{
+    float: left;
+    margin-right: 80px;
+}
+.user_title{
+    color: #656565;
+}
+.user_name{
+    color: #1F85DB;
+}
+.user_n{
+    color: #999999;
+}
+.question{
+    font-size: 14px;
+    color: #333333;
+    padding: 10px 0;
+}
+.answer{
+    font-size: 14px;
+    color: #F13333;
+}
+hr{
+    width: 100%;
+    height: 0;
+    margin-top: 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #E3E3E3;
+}

@@ -1,0 +1,154 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content-inner{
+    padding: 25px 0 20px 35px;
+    background: #F4F4F4;
+}
+.attr .tab_menu{
+    width: 183px;
+    height: 329px;
+    float: right;
+}
+.attr .tab_menu li{
+    width: 183px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 10px;
+    background: url("../../../static/ab/images/attrli.png");
+}
+.attr .tab_menu li a{
+    display: block;
+    width: 151px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D64AD;
+}
+.attr .tab_menu li.current,.attr .tab_menu li:hover{
+    background: url("../../../static/ab/images/attrli_curr.png");
+}
+.attr .tab_menu li.current a,.attr .tab_menu li a:hover{
+    color: #0F8CDC;
+}
+.tab_box .hide{
+    display: none;
+}
+
+.attrin1{
+    padding:0 40px 30px 0;
+}
+.attrin2{
+    padding:0 40px 0 0;
+}
+.attr .tab_box p{
+    font-size: 14px;
+    color: #656565;
+    text-indent: 2em;
+    line-height: 20px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.attr .tab_box .attrin1 p{
+    margin-top: 24px;
+}
+.attr .tab_box p.title{
+    margin-top: 24px;
+    font-weight: bold;
+}
+.attrin_img{
+    margin: 10px 0;
+    text-align: center;
+}
+/*合作申请*/
+.attrin_title{
+    height: 40px;
+}
+.atitle1{
+    margin-top: 24px;
+    width: 232px;
+    background: url("../../../static/ab/images/attrin_ititle1.png");
+}
+.atitle2{
+    margin-top: 30px;
+    width: 159px;
+    background: url("../../../static/ab/images/attrin_ititle2.png");
+}
+.attrin_apl{
+    height: 122px;
+    margin: 20px 0 0 0;
+}
+.attrin_apl li{
+    width: 150px;
+    float: left;
+    text-align: center;
+    height: 122px;
+    margin: 0 15px;
+}
+.attrin_apl li img{
+    width: 90px;
+    height: 86px;
+}
+.attrin_apl li span{
+    display: block;
+    width: 150px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: #656565;
+    font-weight: bold;
+}
+
+/*合作伙伴*/
+.partner_title{
+    height: 40px;
+    margin-top: 20px;
+}
+.patitle1{
+    width: 166px;
+    background: url("../../../static/ab/images/atrliiti_01.png");
+}
+.patitle2{
+    margin-top: 25px;
+    width: 200px;
+    background: url("../../../static/ab/images/atrliiti_02.png");
+}
+.partner ul{
+    margin-top: 10px;
+    height: 370px;
+}
+.partner ul li{
+    width: 253px;
+    margin-right: 12px;
+    padding: 10px 10px;
+    height: 350px;
+    float: left;
+    background: #ffffff;
+    box-shadow: 0 1px 5px 1px #c3c2c2;
+}
+.partner ul li:hover{
+    box-shadow: 0 1px 5px 2px #c4d6ea;
+}
+.partner-tli{
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 18px;
+}
+.partli_title{
+    display: block;
+    width: 65px;
+    float: left;
+    color: #656565;
+}
+.partli_text{
+    display: block;
+    margin-left: 65px;
+    width: 188px;
+    color: #333333;
+}

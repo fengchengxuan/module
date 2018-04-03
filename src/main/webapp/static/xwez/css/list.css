@@ -1,0 +1,17 @@
+#header{
+    width: 100%;
+    height: 500px;
+    background:url("../../../static/xwez/images/banner5.jpg") ;
+}
+.lia5{
+    box-sizing: border-box;
+    border-bottom: 2px solid #1B89E7;
+}
+.s5{
+    color: #1B89E7;
+}
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 微软雅黑,sans-serif;
+}

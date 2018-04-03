@@ -1,0 +1,214 @@
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url(../../../static/purijoy/images/banner7.jpg)50% 50%;
+}
+.content_bg{
+    width: 100%;
+    background: #feeff3;
+    padding-top: 15px;
+}
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+/*全国联保*/
+.contentop{
+    width: 1200px;
+    height: 169px;
+    background: #fff;
+}
+.qglbao{
+    width: 238px;
+    height: 77px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.qglbao img{
+    width: 238px;
+    height: 77px;
+}
+.qglbao_con{
+    width: 870px;
+    height: 30px;
+    margin: 25px auto 0 auto;
+}
+.qglbao_con ul li{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 40px;
+}
+.qglbao_con ul li span{
+    display: block;
+    width: 130px;
+    height: 30px;
+    border-radius: 4px 2px 2px 4px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    background: #2343DB;
+}
+.qglbao_con ul li select{
+    width: 114px;
+    height: 30px;
+    border: 1px solid #7e7e7e;
+    font-size: 16px;
+    color: #333333;
+    padding-left: 6px;
+}
+.qglbao_con ul li select{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url(../../../static/purijoy/images/xiala.jpg) no-repeat scroll right center transparent;
+    padding-right: 14px;
+}
+.qglbao_con ul li select::-ms-expand { display: none; }
+.qglbao_con ul li select option{
+    background: white;
+    border: 1px solid #ccc;
+}
+/*地图*/
+.map{
+    width: 1200px;
+    height: 637px;
+}
+/*快查*/
+.Quick_check{
+    width: 1200px;
+    background: #fff;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.Quick_check .title{
+    padding-top: 15px;
+    height: 30px;
+    margin-left: 30px;
+}
+.Quick_check .title ul li{
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+}
+.Quick_check .title ul li.back_b{
+    color: #fff;
+    line-height: 30px;
+    background: #2343DB;
+}
+.Quick_check .title ul li select{
+    width: 120px;
+    height: 30px;
+    padding-left: 8px;
+    color: #fff;
+    line-height: 30px;
+    border: none;
+    font-size: 14px;
+    background: #2343DB;
+}
+.Quick_check .title ul li select option{
+    background: #fff;
+    text-align: center;
+    color: #2343DB;
+    padding-left: 8px;
+}
+.Quick_check .title ul.tab_menu li{
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #2343DB;
+}
+.Quick_check .title ul.tab_menu li.current{
+    background: #2343DB;
+}
+.Quick_check .title ul.tab_menu li a{
+    line-height: 30px;
+    font-size: 14px;
+    color: #2343DB;
+}
+.Quick_check .title ul.tab_menu li.current a{
+    color: #FFFFFF;
+}
+.Quick_check  .tab_box .hide{
+    display: none;
+}
+.Quick_check .title ul li.back_b span{
+    color: #fff;
+    background: #2343DB;
+}
+.Quick_check .title ul li.back_r span{
+}
+/*表格*/
+.Quick_check table{
+    width: 1000px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.Quick_check table th{
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background: #2343DB;
+    text-align: center;
+}
+.Quick_check table th.th1{
+    width: 100px;
+}
+.Quick_check table th.th2{
+    width: 180px;
+}
+.Quick_check table th.th3{
+    width: 300px;
+}
+.Quick_check table th.th4{
+    width: 420px;
+}
+.Quick_check table tr td{
+    height: 85px;
+    font-size: 12px;
+    color: #333;
+}
+.Quick_check table tr td.td1{
+    text-align: center;
+}
+.Quick_check table tr td.td2{
+    padding-left: 16px;
+}
+.Quick_check table tr td.td3{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 18px;
+}
+.Quick_check table tr td.td4{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 18px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    border-right:1px solid #545454;
+}
+.Quick_check table{border-bottom:1px solid #545454}
+.Quick_check table td{border-left:1px solid #545454;}
+tr:nth-of-type(even){
+    background: #f6f6f6;
+
+}
+.Quick_check table tr:nth-of-type(odd){
+    background: #d3daf8;
+}
+.Quick_check table tr:nth-of-type(even){
+    background: #ffffff;
+}
+.chcek_img{
+    width: 170px;
+    height: 291px;
+    float: right;
+    margin: 20px 5px 0 0;
+}

@@ -1,0 +1,250 @@
+/*中间部分*/
+.content_bg{
+    width: 100%;
+    background: #feeff3;
+    padding-top: 10px;
+}
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content_top{
+    height: 390px;
+}
+.content_topr{
+    float: right;
+}
+.video{
+    width: 970px;
+    height: 390px;
+    float: left;
+    margin-left: 10px;
+}
+.videolist{
+    float: right;
+    margin-right: 15px;
+}
+.videolist li{
+    height: 130px;
+}
+.videolist li a{
+    display: block;
+    width: 236px;
+    height: 125px;
+    position: relative;
+}
+.videolist li a img{
+    width: 236px;
+    height: 121px;
+    border: 1px solid #dbdbdb;
+}
+.videolist li a span{
+    display: block;
+    width: 236px;
+    height: 123px;
+    background: #000;
+    opacity: 0.4;
+    border: 1px solid #dbdbdb;
+    position: absolute;
+    bottom: 0;
+}
+.videolist li.current a img{
+    width: 236px;
+    height: 121px;
+    border: 1px solid #f76188;
+}
+.videolist li.current a span{
+    display: none;
+}
+.videobox{
+    width: 700px;
+    height: 390px;
+    float: left;
+}
+
+/*限时、新品、全部*/
+.content_center{
+    height: 200px;
+    margin-top: 15px;
+}
+.content_center ul li{
+    float: left;
+}
+
+/**/
+.content_last{
+    height: 431px;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.clastl{
+    width: 399px;
+    float: left;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.box a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+:focus{outline:0;}
+.ntabm{
+    width: 400px;
+    height: 45px;
+    background: #f76188;
+}
+.ntabm li{
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+}
+.ntabm li a{
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+}
+.ntabm li a.brand{
+    float: right;
+    margin-right: 20px;
+}
+.ntabm li a.industry{
+    float: left;
+    margin-left: 20px;
+}
+.ntabm li.current a{
+    color: #a80e36;
+}
+.allnbox{
+    width: 400px;
+    height: 385px;
+    background: #fff;
+}
+.allnbox:hover{
+    -moz-box-shadow:0 0 26px 0 #f76087 inset;
+    -webkit-box-shadow:0 0 26px 0 #f76087 inset;
+    box-shadow:0 0 26px 0 #f76087 inset;
+}
+.boxshod:hover{
+    -moz-box-shadow:0 0 26px 0 #f76087 inset;
+    -webkit-box-shadow:0 0 26px 0 #f76087 inset;
+    box-shadow:0 0 26px 0 #f76087 inset;
+}
+.allnbox img{
+    width: 325px;
+    height: 206px;
+}
+/*二级tab*/
+.newslist,.indlist,.problem,.solve{
+    padding-top: 15px;
+    margin-left: 36px;
+}
+.nlistmenu{
+    float: right;
+    display: none;
+    margin-right: 22px;
+}
+.allnbox:hover .newslist{
+    margin-left: 22px;
+}
+.allnbox:hover .indlist{
+    margin-left: 22px;
+}
+.boxshod:hover .problem{
+    margin-left: 22px;
+}
+.boxshod:hover .solve{
+    margin-left: 22px;
+}
+.allnbox:hover .nlistmenu{
+    display: block;
+}
+.boxshod:hover .nlistmenu{
+    display: block;
+}
+.nlistmenu li{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+    text-align: center;
+}
+.nlistmenu li:first-child{
+    margin-top: 0;
+}
+.nlistmenu li.lt1{background: #ff3030;}.nlistmenu li.lt2{background: #ff4500;}.nlistmenu li.lt3{background: #ff6eb4;}.nlistmenu li.lt4{background: #ff7f50;}.nlistmenu li.lt5{background: #ff8c00;}.nlistmenu li.lt6{background: #ffa54f;}
+.nlistmenu li.lt7{background: #ffb90f;}.nlistmenu li.lt8{background: #ffc1c1;}.nlistmenu li.lt9{background: #fbcae2;}.nlistmenu li.lt10{background: #fbe4ad;}.nlistmenu li.lt11{background: #fcc7c7;}.nlistmenu li.lt12{background: #fedacd;}
+.nlistmenu li a{
+    font-size: 14px;
+    color: #fff;
+}
+.lv2title{
+    font-size: 16px;
+    color: #242424;
+    margin-left: 2px;
+}
+.lv2text{
+    width: 323px;
+    font-size: 12px;
+    color: #B1B1B1;
+    margin-top: 10px;
+    line-height: 18px;
+    margin-left: 4px;
+}
+.readmore{
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.readmore a{
+    font-size: 12px;
+    color: #4F79D8;
+}
+.readmore a:hover{
+    color: #61A7E9;
+    border-bottom: 1px solid #61A7E9;
+}
+.tab_box .hide{
+    display: none;
+}
+
+/*爸妈担心的问题,解决问题*/
+.clastc{
+    float: left;
+    width: 398px;
+    height: 430px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.clastr{
+    float: left;
+    width: 399px;
+    height: 430px;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.clastc_title{
+    font-size: 16px;
+    color: #fff;
+    width: 398px;
+    height: 45px;
+    background: #F65F86;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+.clastc_inner{
+    width: 398px;
+    height: 385px;
+    background: #fff;
+}
+.clastc_innerb{
+    padding-top: 15px;
+    margin-left: 38px;
+}
+.clastc_innerb img{
+    width: 320px;
+    height: 200px;
+    padding-bottom: 6px;
+}
+

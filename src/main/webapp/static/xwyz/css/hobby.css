@@ -1,0 +1,27 @@
+.anav-6{  background: #44baf7;
+}
+#content{
+    height: 2250px;
+}
+.winner{
+    width: 273px;
+    position: relative;
+    left: -13px;
+    height: 748px;
+    background: url("../../../static/xwyz/images/price-bg.png") no-repeat;
+}
+.win_box img{
+    margin: 10px 0 3px 5px;
+}
+.win_box{
+    width: 250px;
+    height: 207px;
+    margin-top: 11px;
+    background: white;
+    position: relative;
+    top: 90px;
+    left: 11px;
+}
+#footer{
+    margin-top: 20px;
+}

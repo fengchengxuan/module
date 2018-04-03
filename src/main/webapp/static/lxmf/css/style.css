@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body,#content{
+    /*font-family: "Microsoft YaHei",sans-serif ! important;*/
+}
+#header{
+    width: 1200px;
+    height: 85px;
+    margin: 0 auto;
+}
+.logo{
+    width: 61px;
+    height: 61px;
+    float: left;
+    margin: 12px 0 0 10px;
+    background: url("../../../static/lxmf/images/logo.png");
+}
+.information{
+    width: 365px;
+    height: 46px;
+    float: right;
+    text-align: center;
+    margin: 16px 10px 0 0;
+}
+.tell_title{
+    font-size: 16px;
+    color: #999999;
+}
+.tell{
+    font-size: 20px;
+    color: #E9922C;
+    font-style: italic
+}
+.work_time{
+    font-size: 12px;
+    color: #CBCBCB;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    background: #E92C2C;
+}
+#nav ul{
+    width: 1100px;
+    padding-left: 100px;
+    margin: 0 auto;
+}
+#nav ul li{
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    float: left;
+}
+#nav ul li a{
+    display: block;
+    height: 50px;
+    padding: 0 36px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+#nav ul li:hover{
+    background: #F5CD4F;
+}
+
+/*底部*/
+#footer .footer_box1{
+    width: 100%;
+    height: 60px;
+    background: rgba(317,23,37,0.8);
+    line-height: 60px;
+    overflow: hidden;
+}
+#footer  .youqing{
+    width: 1200px;
+    height: 60px;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+#footer  .youqing span,#footer  .youqing a{
+    float: left;
+}
+#footer  .youqing a{
+    margin: 15px 0 0 20px;
+}
+#footer .footer_box2{
+    width: 100%;
+    height: 140px;
+    background: #D91725;
+}
+#footer .footer_box2 .fchho{
+    width: 1200px;
+    margin: 0 auto;
+}
+#footer .footer_box2 .fchho ul{
+    margin-left: 30px;
+    height: 70px;
+}
+#footer .footer_box2 .fchho ul li{
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    margin: 20px 55px;
+}
+#footer .footer_box2 .fchho ul li a{
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+}
+/*特别声明*/
+#footer .footer_box2 .shengming{
+    width: 940px;
+    margin: 10px auto 0 auto;
+    font-size: 12px;
+    padding-top: 10px;
+    color: #CBCBCB;
+    text-align: center;
+}
+.ways{
+    width: 1200px;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 30px;
+}
+.ways,.ways a{
+    font-size: 12px;
+    color: #656565;
+    line-height: 30px;
+}

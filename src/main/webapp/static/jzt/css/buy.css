@@ -1,0 +1,189 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.buy_order{
+    width: 1200px;
+    min-height: 740px;
+    padding-bottom: 20px;
+    margin: 50px auto 0 auto;
+}
+.bo_top{
+    width: 1020px;
+    height: 70px;
+    margin: 0 auto;
+}
+.bo_topl{
+    width: 365px;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+    font-size: 20px;
+    color: #D32525;
+    font-weight: bold;
+}
+.buy1{
+    background: url(../../../static/jzt/images/buy1.jpg);
+}
+.buy2{
+    background: url(../../../static/jzt/images/buy2.jpg);
+}
+.buy3{
+    background: url(../../../static/jzt/images/buy3.jpg);
+}
+.bo_topr{
+    float: left;
+    width: 653px;
+    height: 70px;
+}
+.buy_order table{
+    width: 1200px;
+}
+.buy_order table{
+    border-collapse: collapse;
+}
+.buy_order table thead tr{
+    width: 1200px;
+    height: 52px;
+    background: #F3F3F3;
+    font-size: 12px;
+    color: #656565;
+}
+.buy_order table thead tr th{
+    text-align: center;
+}
+.buy_order table thead tr th.th1{
+    width: 125px;
+}
+.buy_order table thead tr th.th2{
+    width: 140px;
+}
+.buy_order table thead tr th.th3{
+    width: 260px;
+}
+.buy_order table thead tr th.th4{
+    width: 130px;
+}
+.buy_order table thead tr th.th5{
+    width: 110px;
+}
+.buy_order table thead tr th.th6{
+    width: 130px;
+}
+.buy_order table thead tr th.th7{
+    width: 250px;
+}
+.buy_order table thead tr th.th8{
+    width: 210px;
+}
+.buy_order table thead tr th.th9{
+    width: 280px;
+}
+.buy_order table thead tr th.th10{
+    width: 120px;
+}
+.buy_order table thead tr th.th11{
+    width: 120px;
+}
+.buy_order table thead tr th.th12{
+    width: 120px;
+}
+.buy_order table thead tr th.th13{
+    width: 330px;
+}
+.buy_order table tbody tr{
+    height: 70px;
+    margin: 1px 0 0 0;
+    border-bottom: 1px solid #ffffff;
+    background: rgba(0,161,233,0.1);
+}
+.buy_order table tbody tr td{
+    font-size: 12px;
+    color: #999999;
+    padding: 0 15px;
+}
+.buy_order table tbody tr td.botc{
+    padding: 0;
+    text-align: center;
+}
+.buy_order table tbody tr td.bopd{
+    padding: 0 20px 0 20px;
+}
+.buy_order table tbody tr td span{
+    display: block;
+    width: 40px;
+    height: 20px;
+    margin: 0 40px;
+}
+.buy_order table tbody tr td span input[type=checkbox]{
+    display: block;
+    width: 12px;
+    height: 12px;
+    float: right;
+    margin: 3px 0;
+}
+
+.tend_bao{
+    width: 1200px;
+    height: 77px;
+    border: 1px solid #e9e9e9;
+}
+.tend_baoimg{
+    width: 49px;
+    height: 49px;
+    float: left;
+    margin: 13px 15px 13px 60px;
+}
+.tend_baolist{
+    height: 49px;
+    float: left;
+    font-size: 12px;
+    color: #0A914F;
+    margin: 13px 15px 13px 0;
+}
+.tend_baolist span{
+    padding-right: 18px;
+}
+.tend_baobtn,.tend_baobtn input{
+    width: 150px;
+    height: 77px;
+    float: right;
+    text-align: center;
+    line-height: 77px;
+    background: #E02020;
+    font-size: 24px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.bo_content{
+    width: 1200px;
+    height: 561px;
+    position: relative;
+    background: url(../../../static/jzt/images/buyc.jpg);
+}
+.bo_footer{
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bo_footer ul{
+    width: 240px;
+    margin: 45px auto;
+}
+.bo_footer ul li{
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #656565;
+    margin: 6px 0 0 0;
+}
+.bo_footer ul li .bf_title{
+    display: block;
+    width: 134px;
+    float: left;
+    margin: 0 10px 0 0;
+    text-align: right;
+}

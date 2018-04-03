@@ -1,0 +1,25 @@
+.anav-3{
+    background: transparent;
+}
+.anav-2{
+    background: #44baf7;
+} input,textarea{
+      padding-left: 6px;
+  }textarea{padding-top: 6px}
+#content{height: 1960px}
+h2{font-weight: 500;
+    color: #333}
+.content-r-bt{
+    float: left;
+    color: #656565;
+    font-size: 14px;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-family: '微软雅黑',sans-serif;
+}
+.content-r-bt p{
+    line-height: 30px;
+}
+th{
+    font-weight: 400;
+}

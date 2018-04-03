@@ -1,0 +1,61 @@
+.content-right-text-box2,.content-right-box-title-bg{
+    height: 510px;
+}
+.content-right-box-title1,.content-right-box-title2{
+    margin-top: 10px;
+}
+.anav-3{
+    background: #168DD9;
+}
+.anav-10{
+    background: #44baf7;
+}
+.content-right-box-title1{
+    padding-left: 11px;
+    text-align: left;
+}
+#content{
+    height: 1720px;
+}
+.content-right-box{
+    height: 590px;
+}
+.content-right-abtxtt{
+    font-family: '微软雅黑',sans-serif;
+    width: 921px;
+    height: 1030px;
+    background: white;
+    padding: 30px;
+}
+.content-right-abtxtt p{
+    text-align:justify;
+    text-indent: 25px;
+}
+.content-right-abtxtt h1{
+    text-align: center;
+}
+.content-right-box-title1{
+    font-size: 18px;
+}
+.content-right-abtxtt p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.content-right-abtxtt h1{
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+.content-right-abtxtt h4{
+    font-size: 16px;
+    line-height: 68px;
+}
+.content-right-abtxtt-pb{
+    text-align: center;
+    margin-top: 65px;
+}
+.Article-right-tt{
+    text-align: center;
+}
+.Article-right-tt span{
+    margin:0 15px;
+}

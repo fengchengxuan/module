@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "微软雅黑",sans-serif;
+}
+#header{
+    height: 110px;
+    border-top: 2px solid #1F85DA;
+}
+.header-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 111px;
+    height: 98px;
+}
+.header-right{
+    margin-right: 20px;
+    float: right;
+}
+.contact{
+    margin-top: 8px;
+    height: 35px;
+}
+.contact-inner{
+    height: 35px;
+    float: right;
+}
+.nav{
+    margin-top: 15px;
+    float: right;
+}
+.nav li{
+    width: 88px;
+    height: 52px;
+    text-align: center;
+    float: left;
+    line-height: 50px;
+}
+.nav>ul>li>a:hover{
+    border-bottom: 2px solid #1F85DA;
+}
+.nav li.li2,.nav li.li3,.nav li.li4,.nav li.li5{
+    position: relative;
+}
+.nav-level2{
+    position: absolute;
+    top: 52px;
+    z-index: 9999;
+    display: none;
+    border: 1px solid #e3e3e3;
+    background: #ffffff;
+}
+.nav-level2 li:hover{
+    border: none;
+    background: #d2e7f8;
+}
+.nav li.li2:hover .nav-level2,.nav li.li3:hover .nav-level2,.nav li.li4:hover .nav-level2,.nav li.li5:hover .nav-level2{
+    display: block;
+}
+.nav li a{
+    display: block;
+    width: 88px;
+    height: 50px;
+    font-size: 14px;
+    color: #656565;
+}
+.nav li select{
+    width: 78px;
+    padding-left: 10px;
+    height: 48px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    color: #656565;
+}
+.nav li select option{
+    text-align: center;
+    font-size: 14px;
+    color: #656565;
+}
+
+
+/*底部*/
+#footer{
+    width: 100%;
+    height: 150px;
+    background: #1F85DB;
+}
+.footer-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-inner ul{
+    float: left;
+    margin: 20px 25px 0 25px;
+}
+.footer-inner ul li{
+    margin-top: 5px;
+}
+.footer-inner ul li,.footer-inner ul li a{
+    font-size: 12px;
+    color: #ffffff;
+}
+.footer-inner ul li.bn,.footer-inner ul li.bn a{
+    color: #0C2B79;
+}
+.footer-inner ul li.youqing{
+    font-size: 14px;
+    color: #0C2B79;
+}
+/*路径*/
+.way{
+    width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+}
+.way,.way a{
+    font-size: 12px;
+    color: #656565;
+}

@@ -1,0 +1,188 @@
+#content{
+    width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.abount{
+    width: 1200px;
+    position: relative;
+}
+.abount .tab_menu{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.abount .tab_menu li{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+.abount .tab_menu li a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: #9D9D9D;
+}
+.abount .tab_menu li a img{
+    float: left;
+    margin: 9px 0 0 20px;
+}
+.abount .tab_menu li a span{
+    display: block;
+    width: 80px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 40px;
+    font-weight: bold;
+}
+.tab_menu li.current a{
+    background: #03A9F3;
+}
+.tab_box .hide{
+    display: none;
+}
+
+.tab_box{
+    width: 1100px;
+    background: #F5F5F5;
+}
+
+/*分页*/
+.article{
+    padding: 0 20px 20px 20px;
+    position: relative;
+}
+.article p{
+    font-size: 14px;
+    color: #656565;
+    line-height: 20px;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    padding: 20px 0 0 0;
+}
+.article p.title{
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+.article p.it{
+    padding: 0;
+}
+.pages{
+    position: absolute;
+    bottom: 20px;
+    left: 450px;
+}
+.pages a{
+    padding:3px;
+    font-size: 14px;
+    color: #656565;
+    margin:8px;
+    text-decoration:none
+}
+.active_page,.active_page2,.active_page3,.active_page4,.active_page5{
+    color:#1F85DB !important;
+}
+
+/*招商加盟*/
+.zhaoshang{
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.zhaoshang div{
+    margin: 8px 0;
+}
+.zhaoshang div span{
+    display: block;
+    width: 132px;
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    text-align: right;
+}
+.zhaoshang div input,.zhaoshang div textarea,.zhaoshang div select{
+    margin-left: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #666666;
+}
+.zhaoshang div.zsitem1 input{
+    width: 290px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    background: #ffffff;
+}
+.zhaoshang div.zsitem1 span.title{
+    line-height: 30px;
+}
+.zhaoshang div.zsitem2 textarea{
+    width: 284px;
+    height: 60px;
+    background: #ffffff;
+    padding: 5px 6px 5px 10px;
+    resize: none;
+}
+.zhaoshang div.zsitem2 span.title{
+    line-height: 70px;
+}
+.zhaoshang div.zsitem1 select{
+    width: 130px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    background: #ffffff;
+}
+.zhaoshang div.zsitem3 textarea{
+    width: 284px;
+    height: 90px;
+    background: #ffffff;
+    padding: 5px 6px 5px 10px;
+    resize: none;
+}
+.zhaoshang div.zsitem3 span.title{
+    line-height: 100px;
+}
+/*提交，取消按钮*/
+.zhaoshang div.btns{
+    width: 315px;
+    height: 36px;
+    margin-left: 132px;
+}
+.zhaoshang div.btns input[type=submit],.zhaoshang div.btns button{
+    width: 100px;
+    height: 36px ;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    background: #D2D2D2;
+}
+.zhaoshang div.btns input[type=submit]:hover,.zhaoshang div.btns button:hover{
+    background: #00A1E9;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.zhaoshang div.btns button{
+    float: right;
+}
+
+/*荣誉殿堂*/
+.rongyu{
+    padding: 0 20px 36px 0;
+}
+.rongyu ul{
+    height: 200px;
+    margin-top: 30px;
+}
+.rongyu ul li{
+    float: left;
+    margin-left: 40px;
+}
+.rongyu ul li:first-child{
+    margin-left: 0;
+}

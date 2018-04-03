@@ -1,0 +1,219 @@
+.contener {
+    width: 1300px;
+    margin: 0 auto;
+    height: 1430px;
+}
+.contener .ways {
+    margin: 10px 0 0 20px;
+}
+.contener .inner{
+    background: white;
+    margin:10px auto auto 20px;
+}
+.contener .inner .articleselect{
+    width: 161px;
+    height: 36px;
+    margin: 30px 0 0 90px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.contener .inner .setnewsbox{
+    width: 856px;
+    height: 270px;
+    margin: 28px 0 0 90px;
+}
+.contener .inner .setnewsbox input{
+    width: 490px;
+    height: 36px;
+    padding-left: 10px;
+    margin: 0 0 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.contener .inner .setnewsbox span{
+    font-family: "微软雅黑",sans-serif;
+    font-size: 14px;
+}
+.contener .inner .setnewsbox .head{
+    color: #333333;
+}
+.contener .inner .setnewsbox .end{
+    width: 225px;
+    height: 47px;
+    color: #EC2323;
+    float: right;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+}
+.contener .inner .setnewsbox .abstext{
+    width: 480px;
+    padding: 6px 10px;
+    height: 105px;
+    max-width: 512px;
+    max-height: 117px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/*富文本编辑框*/
+#container{
+    width: 900px;
+    margin: 20px auto 0 auto;
+    min-height: 770px;
+}
+/*快捷按钮*/
+.Shortcut_key_box{
+    margin-top: 6px;
+}
+.Shortcut_key{
+    float: left;
+    margin-left: 43px;
+}
+.Shortcut_key span{
+    margin-right: 20px;
+}
+
+.Shortcut_key span.translate{
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    width: 60px;
+    height: 85px;
+    background: url("../../../static/xwyz/images/btn.png") -147px 0;
+}
+.Shortcut_key span.Simplified{
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    width: 60px;
+    height: 85px;
+    background: url(../../../static/xwyz/images/btn.png) -213px 0;
+}
+.Shortcut_key span.Traditional{
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    width: 60px;
+    height: 85px;
+    background: url(../../../static/xwyz/images/btn.png) -270px 0;
+}
+.btn_box{
+    float: right;
+    margin:24px 37px 0 0;
+}
+.btn_box button{
+    width: 102px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #158DD9;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 12px;
+    border: 0;
+}
+/*弹出框*/
+.pop_box {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(200,200,200,0.5);
+    color: #6895EF;
+    z-index: 1000;
+}
+.pop_box>div {
+    position: absolute;
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid #6895EF;
+    padding: 0 10px 10px;
+    background: #EAF5FA;
+    top: 20%;
+    left: 50%;
+    margin-left: -200px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.pop_box>div>div {
+    text-align: right;
+}
+
+.pop_box>div>div>.close {
+    margin-right: 0;
+}
+
+.pop_box>div p {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+.pop_box>div .btn_box {
+    text-align: right;
+    display: block;
+}
+
+/*草稿文章*/
+.contentbox-art-list{
+    margin-left: 10px;
+    height: 130px;
+}
+.contentbox-art-list-img{
+    width: 157px;
+    height: 118px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+.contentbox-art-list-box{
+    float: left;
+    font-size: 14px;
+    color: #333;
+    width: 789px;
+    margin:8px 0 0 10px;
+}
+.contentbox-artlist-btitle{
+    font-weight: bold;
+}
+.contentbox-art-list-box p{
+    text-indent: 2em;
+    line-height: 20px;
+}
+.contentbox-artlis-poe{
+    margin-top: 14px;
+    font-size: 12px;
+}
+.contentbox-artlis-poe .con{
+    color: #158DD8;
+    margin-right: 18px;
+    float: right;
+}
+.contentbox-artlis-poe .del{
+    color: #FF0000;
+    float: right;
+}
+.contentbox-art-hr{
+    width: 965px;
+    height: 1px;
+    margin: 0 auto;
+    background: #EDEDED;
+    border: none;
+}
+.contentbox-artlis-poe .read,.contentbox-artlis-poe .num,.contentbox-artlis-poe .com{
+    float: left;
+    font-size: 12px;
+}
+.contentbox-artlis-poe .read,.contentbox-artlis-poe .com{
+    color: #656565;
+}
+.contentbox-artlis-poe .com{
+    margin-left: 18px;
+}
+.contentbox-artlis-poe .num{
+    color: #158DD8;
+}

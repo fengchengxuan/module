@@ -1,0 +1,84 @@
+/*基本样式*/
+body{
+    min-width: 1200px;
+    background: #feeff3;
+    font-family: "微软雅黑", sans-serif;
+}
+#content{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 15px;
+}
+.navli8{
+    background: #F69EB5;
+}
+#header{
+    margin: 25px auto 0 auto;
+    height: 258px;
+    width: 1200px;
+    background: url("../../../static/purijoy/images/ditu-bg.jpg");
+}
+.about-left{
+    float: left;
+    width: 300px;
+    height:1009px;
+    background: transparent;
+}
+.about-right{
+    width:890px;
+    height: 1009px;
+    background: white;
+    float: right;
+}
+#footer{
+    clear: both;
+    position: relative;
+    top: 20px;
+}
+.about-left-img1{
+    width: 300px;
+    height: 448px;
+    background: url("../../../static/purijoy/images/join_us.jpg")no-repeat;
+}
+.about-left-img2 img{
+    margin-top: 4px;
+}
+pre{
+    line-height: 25px;
+    font-size: 14px;
+    color: #333;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+/*TAB*/
+.clearfix:after {
+    content: "";
+    display: block;
+}
+
+.wrap .blist .li.active{
+    color: white;
+    background: url("../../../static/purijoy/images/xinxing-hover.png");
+}
+.blsit-list .li:first-child{
+    display: block;
+}
+.blsit-list .li{
+    display: none;
+}
+.li1{
+    margin-top: 1px;
+    cursor: pointer;
+    width: 159px;height: 40px;background: url(../../../static/purijoy/images/xinxing.png);font-size: 18px;color: #f76188;text-align: center;line-height: 40px;
+}
+.li1:hover{
+    color: white;
+    background: url(../../../static/purijoy/images/xinxing-hover.png);
+}
+.header{
+    background: #fff;
+}

@@ -1,0 +1,104 @@
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+.ableft-nav{
+    width: 200px;
+    margin-top: 10px;
+    float: left;
+}
+.ableft-navul li{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+.ableft-navul li a{
+    color: #656565;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+.ableft-navul li a:hover{
+    color: #1B89E7;
+}
+.ableft-navli1{
+    background: url("../../../static/xwez/images/at_01.png");
+}
+.ableft-navli2{
+    background: url("../../../static/xwez/images/at_02.png");
+}
+.ableft-navli3{
+    background: url("../../../static/xwez/images/at_03.png");
+}
+.ableft-navli4{
+    background: url("../../../static/xwez/images/at_04.png");
+}
+.ableft-navli5{
+    background: url("../../../static/xwez/images/at_05.png");
+}
+.ableft-navli6{
+    background: url("../../../static/xwez/images/at_06.png");
+}
+.ableft-navli7{
+    background: url("../../../static/xwez/images/at_07.png");
+}
+.ableft-navli8{
+    background: url("../../../static/xwez/images/at_08.png");
+}
+.ableft-navli9{
+    background: url("../../../static/xwez/images/at_09.png");
+}
+
+/*右边的文章*/
+.abright{
+    width: 985px;
+    height: 1030px;
+    margin-top: 20px;
+    float: right;
+    background: white;
+}
+
+.content-right-abtxtt{
+    font-family: '微软雅黑',sans-serif;
+    background: white;
+    padding: 30px 30px 0 30px;
+}
+.content-right-abtxtt p{
+    text-indent: 25px;
+    font-size: 14px;
+}
+.content-right-abtxtt h1{
+    text-align: center;
+}
+.content-right-box-title1{
+    font-size: 18px;
+}
+.content-right-abtxtt p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.content-right-abtxtt h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content-right-abtxtt h4{
+    font-size: 16px;
+    line-height: 68px;
+}
+.content-right-abtxtt-pb{
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+.Article-right-tt{
+    text-align: center;
+    color: #656565;
+}
+.Article-right-tt span{
+    margin:0 15px;
+    color: #656565;
+}
+.Article-right-n{
+    color: #333;
+    text-align: justify;
+}

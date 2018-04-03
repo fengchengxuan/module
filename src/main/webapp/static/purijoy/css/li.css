@@ -1,0 +1,339 @@
+.banner{
+    height: 600px;
+}
+.content_bg{
+    width: 100%;
+    background: #feeff3;
+    padding: 20px 0;
+}
+#content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.stores{
+    height: 140px;
+}
+.stores ul li{
+    width: 285px;
+    height: 140px;
+    float: left;
+    margin-left: 20px;
+}
+.stores ul li:first-child{
+    margin-left: 0;
+}
+.stores ul li img{
+    width: 285px;
+    height: 110px;
+}
+.stores ul li span{
+    display: block;
+    width: 285px;
+    height: 30px;
+    text-align: center;
+    background: #F65F86;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+.stitle{
+    margin-top: 26px;
+    width: 176px;
+    padding-left: 30px;
+    height: 46px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 46px;
+    background: url("../../../static/purijoy/images/title_01.png");
+}
+.Gifts{
+    margin-top: 10px;
+    height: 179px;
+}
+.Gifts ul li{
+    width: 285px;
+    height: 179px;
+    margin-left: 20px;
+    float: left;
+}
+.Gifts ul li:first-child{
+    margin-left: 0;
+}
+.Gifts ul li img{
+    width: 285px;
+    height: 179px;
+}
+
+/*限量秒拍*/
+.Limited{
+    height: 417px;
+    margin-top: 10px;
+}
+.Limited ul li.lims{
+    width: 285px;
+    height: 417px;
+    background: #fff;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.Limited ul li.lims:hover{
+    box-shadow: 0 5px 15px 1px #f1c1cd;
+}
+.Limited ul li.lims:first-child{
+    margin-left: 0;
+}
+.lims_top,.lims_top img{
+    width: 285px;
+    height: 200px;
+}
+.lims_top{
+    position: relative;
+}
+.limhi{
+    width: 285px;
+    height: 40px;
+    position: absolute;
+    bottom: -10px;
+    background: rgba(0,0,0,0.5);
+}
+.limhi img{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    float: left;
+}
+.limhi span{
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.limhi button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: #DC2A2A;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.limlist{
+    margin-top: 10px;
+}
+.limlist ul li{
+    margin-top: 1px;
+}
+.limlist ul li:first-child{
+    margin-top: 0;
+}
+.limtitle{
+    width: 285px;
+    height: 26px;
+    background: #DBDBDB;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+.limtle1{
+    background: #F75F87;
+}
+.limcon{
+    height: 101px;
+    display: none;
+}
+.limcn1{
+    display: block;
+}
+.limcon_text{
+    font-size: 12px;
+    color: #656565;
+    padding-top: 8px;
+    line-height: 20px;
+    margin-left: 35px;
+}
+.limcon_text div span{
+    display: block;
+    width: 125px;
+    float: left;
+}
+.lim_quality{
+    width: 103px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #656565;
+}
+.lim_quality div{
+    height: 20px;
+}
+
+/*专属优惠*/
+.Discount{
+    height: 137px;
+    margin-top: 10px;
+}
+.Discount ul li{
+    width: 232px;
+    height: 137px;
+    margin-left: 10px;
+}
+.Discount ul li:first-child{
+    margin-left: 0;
+}
+.Discount ul li img{
+    width: 232px;
+    height: 137px;
+}
+
+/*弹框*/
+#modal{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    overflow: auto;
+    width: 638px;
+    height:423px;
+    border-radius: 6px;
+    background: #fff;
+}
+.modal_top{
+    width: 638px;
+    height: 101px;
+    background: url("../../../static/purijoy/images/mo_t.png");
+}
+.modal_content{
+    width: 450px;
+    margin: 15px auto 0 auto;
+}
+.modal_test{
+    width: 450px;
+    height: 50px;
+    font-size: 16px;
+    color: #333;
+}
+.modal_bleft{
+    width: 180px;
+    float: left;
+}
+.modal_btns{
+    margin-top: 30px;
+}
+.modal_btns .modalbtn,.modal_weixin{
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #F75F87;
+    background: #fff;
+    font-size: 14px;
+    color: #F75F86;
+}
+.modal_btns .modalbtn,.modal_gwang{
+    cursor: pointer;
+}
+.modal_btns .modalbtn:hover{
+    background: #F75F87;
+    color: #ffffff;
+}
+.modal_bright{
+    width: 180px;
+    float: right;
+}
+.modal_btmao{
+    margin-top: 20px;
+}
+.modal_gwang{
+    background: #159AE6;
+    border: none;
+    width: 179px;
+    height: 43px;
+    border-radius: 4px;
+    margin-top: 47px;
+    font-size: 16px;
+    color: #fff;
+}
+.modal_wei,.modal_wei img{
+    width: 150px;
+    height: 140px;
+}
+.modal_wei{
+    margin-top: 15px;
+}
+.modal_wei img{
+    margin-left: 15px;
+}
+/*文章列表*/
+.li-left{
+    width: 895px;
+    height: 1320px;
+
+    float: left;
+}
+.Limited{
+    float: left;
+    margin-left: 20px;
+}
+.content_bg{
+    height: 1320px;
+}
+#footer{
+    clear: both;
+}
+.li-textbox{
+    margin-bottom: 20px;
+    height: 194px;
+    width: 895px;
+    background: white;
+}
+.l-t{
+    width: 260px;
+    height: 194px;
+    float: left;
+}
+.r-t{
+    width: 600px;
+    height: 160px;
+    float: left;
+    margin-top: 15px;
+}
+.l-t img{
+    margin: 20px;
+}
+.r-t a{
+    color: #2586E0;
+    font-size: 14px;
+}
+.text{
+    line-height: 24px;
+    text-indent: 20px;
+    color: #666;
+    font-size: 14px;
+}
+.li-textbox:hover{
+    box-shadow: 0 5px 15px 1px #f1c1cd;
+}
+.p-title{
+    width: 400px;
+    font-size: 18px;
+    color: #333;
+    line-height: 34px;
+}
+.li-textbox:hover .p-title{
+    color: #F75F86;
+
+}
+.riqi{
+    float: right;margin-top: -23px;
+    color: #999;
+    font-size: 12px;
+}

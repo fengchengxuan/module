@@ -1,0 +1,67 @@
+select::-ms-expand{display:none;}select{ appearance:none; -moz-appearance:none; -webkit-appearance:none;}
+.pages li{
+    position: relative;
+    left: 205px;
+    bottom: -3px;
+    cursor: pointer;
+    list-style-type: none;
+    width: 236px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    color: #2b9eed;
+    z-index: 999999999;
+    margin-left: 110px;
+    background: url("../../../static/xwyz/images/or_libg.png")no-repeat center;
+}
+.pages li.active{height: 29px;line-height:29px;font-size: 14px;color: #FFFFFF; position: relative;bottom: 0;z-index: 9999999;background: url("../images/ac_libg.png")no-repeat center;}
+.pages{position:absolute;z-index:99}.pages.horizontal{width: 1000px;left:42%;transform:translateX(-50%);bottom:0}
+.pages.horizontal li{display:inline-block;margin-right:-54px;}.pages.horizontal li:last-child{margin-right:0}
+.pages.vertical{right:5px;top:50%;transform:translateY(-50%)}.pages.vertical li{margin-bottom:10px;}
+.pages.vertical li:last-child{margin-bottom:0}
+
+
+.pages li{
+    text-align: center;
+}
+
+#Level-slider{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+.sections,.section {
+    height:100%;
+}
+#Level-slider,.sections {
+    position: relative;
+}
+.section {
+    background-color: #000;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.content-left-top{
+    height: 1444px;
+}
+#section0 {
+    width: 100%;
+    height: 650px;
+    background-image: url('../../../static/xwyz/images/index-bj1.jpg');
+}
+.left-gai{
+    height: 160px;
+}
+#section1 {
+    width: 100%;
+    height: 650px;
+    background-image: url('../../../static/xwyz/images/index-bj2.jpg');
+}
+#section2 {
+    width: 100%;
+    height: 650px;
+    background-image: url('../../../static/xwyz/images/index-bj3.jpg');
+}

@@ -1,0 +1,83 @@
+#content{
+    width: 1200px;
+    background: #F4F4F4;
+    min-height: 600px;
+    margin:0 auto 20px auto;
+    padding-bottom: 8px;
+}
+.abount .tab_menu{
+    padding-top: 20px;
+    width: 183px;
+    height: 400px;
+    float: right;
+}
+.abount .tab_menu li{
+    width: 183px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 10px;
+    background: url("../../../static/ab/images/abount_li.png");
+}
+.abount .tab_menu li a{
+    display: block;
+    width: 151px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D64AD;
+}
+.abount .tab_menu li.current,.abount .tab_menu li:hover{
+    background: url("../../../static/ab/images/abount_lic.png");
+}
+.abount .tab_menu li.current a,.abount .tab_menu li a:hover{
+    color: #E53B3B;
+}
+.tab_box .hide{
+    display: none;
+}
+
+.article{
+    margin-left: 80px;
+    width: 844px;
+    padding: 30px 0 0 0;
+}
+.article_title{
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+}
+.article_info{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #656565;
+}
+.article_info span{
+    margin: 0 10px;
+}
+.article_abstract{
+    margin-top: 15px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333333;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.abstract-title{
+    font-style: italic;
+}
+.article_img{
+    margin: 5px 0;
+}
+.article p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #656565;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}

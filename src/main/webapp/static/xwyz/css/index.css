@@ -1,0 +1,413 @@
+/* play */
+.play{width:670px;height:40px;overflow:hidden;position:relative;margin:150px auto 0;}
+.play ol{position:absolute;right:5px;bottom:5px;z-index:99999;}
+.play ol li{float:left;margin-right:3px;display:inline;cursor:pointer;font-family:arial,sans-serif;font-size:12px;}
+.play ol li.active{padding:3px 8px;font-weight:bold;position:relative;bottom:2px;}
+.play ul{position:absolute;top:0;left:0;z-index:1;}
+.play ul li{width:670px;height:40px;float:left;}
+.play ul img{float:left;width:670px;height:40px;}
+.play ul li .a{
+    margin-left: 70px;
+}.play ul li a:link{
+    color: white;
+     text-decoration: none;
+ }
+.play ul li a:hover{
+   text-decoration:underline;
+}
+
+
+select{
+    padding-left: 8px;
+}
+
+.anav-1{
+    background: #1ba3e2;
+}
+#content{
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+/*左边*/
+.content-left{
+    width: 239px;
+    margin: 850px  auto 0 auto;
+    position: relative;
+}
+.content-left-inner{
+    width: 256px;
+    height: 415px;
+    position: absolute;
+    left: -2px;
+    background: url("../../../static/xwyz/images/xinfeng.jpg");
+}
+.content-left-title{
+    width: 200px;
+    margin: 0 auto;
+    height: 36px;
+    border-bottom: 1px solid #319BE6;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    color: #319BE6;
+    font-weight: bold;
+}
+.content-left-top{
+    margin:0  auto;position: relative;left: -500px;
+}
+.content-box{
+    width: 1250px;
+    height: 1275px;
+    margin: 0 auto;
+}
+
+.content-left{
+    width: 253px;
+    float: left;
+    clear: both;
+}
+.content-right{
+    width: 990px;
+    font-family: '微软雅黑',sans-serif;
+    height: 100%;
+    margin: 0 0 0 257px;
+}
+
+
+
+
+
+/*左下角*/
+.content-left-select{
+    width: 200px;
+    margin: 10px auto 0 auto;
+}
+.content-left-select select:focus,.content-left-select option:focus{
+    outline:none;
+    border:1px solid #999 ;
+}
+.content-left-select select{
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    width: 100px;
+    height: 24px;
+    background: url(../../../static/xwyz/images/rt-select.png) no-repeat scroll right center transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    border: 1px solid #999;border-radius: 3px;
+}
+.content-left-select{
+    margin-top: 20px;
+    color: #333;
+    font-size: 16px;
+}
+.content-left-select>span{
+    font-size: 14px;
+    line-height: 21px;
+}
+.content-left-select select,.content-left-select textarea{
+    color:#656565;
+    font-size: 14px;
+}
+.content-left-select p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+.content-left-select textarea{
+    width: 190px;
+    height: 153px;
+    padding: 5px;
+    background: white;
+    margin: 5px 0 0 0;
+    resize:none;
+}
+.content-left-select textarea{
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.content-left-select button{
+    width: 70px;
+    height: 24px;
+    margin:10px 0 0 65px;
+    line-height: 24px;
+    border-radius: 4px;
+    background: #319BE7;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+/*右边*/
+/*学校新闻，荣誉殿堂，学园互动*/
+.content-rightr{
+    margin-top: 16px;
+    padding-bottom: 12px;
+    width: 384px;
+    float: right;
+    background: #FFFFFF;
+}
+.content-rightr-center{
+    position: relative;
+    z-index: 9;
+    width: 345px;
+    margin: 0 auto;
+}
+.content-right-box2-title{
+    font-size: 16px;
+    height: 23px;
+    line-height: 23px;
+}
+.crightr-title1{
+    color: #E73131;
+}
+.crightr-title2{
+    color: #23CD3F;
+}
+.crightr-title3{
+    color: #319BE6;
+}
+.content-right-box2-title span{
+    display: block;
+    width: 3px;
+    height: 20px;
+    float: left;
+    margin: 1px 10px 0 0;
+}
+.crightr-span1{
+    background: #E73131;
+}
+.crightr-span2{
+    background: #23CD3F;
+}
+.crightr-span3{
+    background: #319BE6;
+}
+.content-right-box2{
+    margin-top: 15px;
+}
+.content-right-box2 img{
+    width: 345px;
+    height: 135px;
+    margin-top: 5px;
+}
+.content-rightr-text{
+    width: 335px;
+    height: 71px;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656565;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.content-rightr-text a{
+    color:#999999;
+    font-size: 12px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.content-rightr-text a:hover,.content-rightr-list ul li a:hover{
+    color: #E73131;
+}
+.content-rightr-list ul li{
+    height: 22px;
+    line-height: 22px;
+    margin-top: 9px;
+}
+.content-rightr-list ul li a{
+    margin-left: 10px;
+    color:#333;
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.content-rightr-list ul li span{
+    font-size: 12px;
+    color: #656565;
+    float: right;
+}
+.content-rightr-list ul li img{
+    width: 8px;
+    height: 8px;
+}
+.content-right-box{
+    float: left;
+}
+.content-right-box1{
+    width:598px;
+    height: 420px;
+    position: relative;z-index: 999;
+}
+.content-right-box-title1{
+    width: 126px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 31px;
+    height: 31px;
+}
+
+.crb-title1{
+    background: url("../../../static/xwyz/images/box-title1.png") no-repeat;
+}
+.crb-title2{
+    background: url("../../../static/xwyz/images/box-title2.png") no-repeat;
+}
+.crb-title3{
+    background: url("../../../static/xwyz/images/box-tilte.png") no-repeat;
+}
+.content-right-box-title-bg{
+    width: 598px;
+    height: 378px;
+    background: white;
+}
+.content-right-text{
+    float: left;
+    height: 355px;
+}
+.content-right-text1{
+    width: 223px;
+    margin: 10px 0 0 5px;
+}
+.content-right-text2{
+    width: 360px;
+    margin: 10px 0 0 10px;
+}
+.content-right-text2>span{
+    font-size: 15px;
+    line-height: 28px;
+}
+.content-right-text2{
+    color: #222;
+}
+.text2-0{
+    display: block;
+    width: 316px;
+}
+.text2-0:hover{
+    color: #e73131;
+}
+.text2-0-1{
+    width: 322px;
+}
+.text2-0,.text2-1{
+    float: left;
+
+}
+.text2-1{
+    color: #1b8bea;
+    cursor: pointer;
+}
+.content-right-text2-box{
+    height: 94px;float: left;
+    margin-top: 6px;
+
+}
+.right-text2-box1{
+    width: 134px;
+}
+.right-text2-box2{
+    text-indent: 2em;
+    font-size: 12px;
+    padding: 0 3px 0 0;
+    width: 211px;
+    color: #666;
+    margin-left:6px;line-height: 18px;
+    text-align: justify;
+}
+.content-right-text2 p,.content-right-text-box2 p{
+    color: #333;
+    line-height: 29px;
+}
+.content-right-text p a{
+    color: #333333;
+}
+.content-right-text p a:hover{
+    color: #e73131;
+}
+.content-right-text p .ldate{
+    float: right;
+    margin-right: 16px;
+}
+p a{
+    text-decoration: none;
+}
+.content-right-text2 p .span{
+    margin: 0 5px 0 0;
+    color: #1b8bea;
+    cursor: pointer;
+}
+.content-right-text2 p .span0{
+    width: 251px;
+    font-size: 15px;
+}
+ .span1{
+    font-size: 15px;
+    float: left;
+    width: 266px;
+}
+.content-right-text-box2 p .span{
+    margin: 0 5px 0 0;
+    color: #1b8bea;
+    cursor: pointer;
+}
+.right-text2-box2 a{color:#999999;cursor: pointer;margin-left: 3px;list-style: none;text-decoration: none}
+.right-text2-box2 a:hover{
+    color: #E63131;
+}
+.text2-2{
+    margin: 6px 0 0 0;
+    float: left;
+    display: block;
+    line-height: 28px;
+    font-size: 17px;
+    width: 330px;
+    color: #333;
+}
+.text2-0{
+    font-size: 17px;
+    color: #333;
+}
+.text2-3{line-height: 34px;color:#1b8bea;font-size: 15px;cursor: pointer;margin: 6px 0 0 0; }
+ .content-right-text-box2{
+     padding: 0 5px;
+     width: 370px;
+     height: 382px;
+     background: white;
+ }
+ .right-text2-3{
+     width: 229px;
+     line-height: 20px;
+     color: #666;
+     position: relative;
+     left: 4px;
+     text-align: justify;
+ }
+ .right-text2-3 span{
+     color:#1b8bea ;
+     cursor: pointer;
+ }

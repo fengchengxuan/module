@@ -1,0 +1,15 @@
+.anav-8{  background: #44baf7;  }
+.win_box img{
+    margin-top: 6px;
+}
+.win_text{
+    background: white;
+    color: #222;
+}
+.winner{
+    width: 278px;
+    position: relative;
+    left: -13px;
+    height: 743px;
+    background: url("../../../static/xwyz/images/rr-bg.png");
+}

@@ -1,0 +1,457 @@
+ul,li{
+    list-style: none;
+}
+a,a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+.content-box{
+    height: 430px;
+}
+.box-lt1{
+    float: left;
+    margin-top: 20px;
+    width: 500px;
+    background: white;
+    box-shadow:0 0 2px 0 #BFBFBF;
+}
+.box-lt2{
+    float: right;
+    margin-top: 10px;
+    width: 690px;
+    background: white;
+}
+
+.tab .nav-tabs{
+    text-align: center;line-height: 40px;
+    height: 40px;position: relative;
+    border: none;
+}
+.tab .nav-tabs li{
+    cursor: pointer;
+    width:100px;
+    border: none;
+    height: 40px;
+    box-shadow:2px 0 5px #BFBFBF;
+    overflow:hidden;
+    border-radius: 2px 2px 0 0;
+}
+.tab .nav-tabs li img{
+    margin-top: 6px;
+}
+.tab .nav-tabs li a{
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    display: none;
+}
+.tab .nav-tabs li:hover img{
+    display: none;
+}
+.tab .nav-tabs li:hover a{
+    display: block;
+}
+.tab .nav-tabs li.active a.yq1,
+.tab .nav-tabs li:hover a.yq1{
+     background: #ff881d;
+ }
+
+.tab .nav-tabs li.active a.yq2,
+.tab .nav-tabs li:hover a.yq2{
+    background: #205780;
+}
+
+.tab .nav-tabs li.active a.yq3,
+.tab .nav-tabs li:hover a.yq3{
+    background: #1b9bbe;
+}
+
+.tab .nav-tabs li.active a.yq4,
+.tab .nav-tabs li:hover a.yq4{
+    background: #09c2c0;
+}
+
+.tab .nav-tabs li.active a.yq5,
+.tab .nav-tabs li:hover a.yq5{
+    background: #05a536;
+}
+
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li.active a:hover{
+    color: #fff;
+    border: none;
+}
+.tab .nav-tabs li.active a{
+    display: block;
+}
+.tab .nav-tabs li.active img{
+   display: none;
+}
+.tab .nav-tabs li.active a:before{
+    content: "";
+    width: 58%;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.tab .nav-tabs li.active a:after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 43%;
+}
+.tab .tab-content{
+    z-index: 9;
+    border-top: none;
+    width: 500px;
+    height: 368px;
+}
+/*教学仪器*/
+.tab-content-box1{
+    margin: 12px 0 0 10px;
+    height: 110px;
+}
+.tab-content-img{
+    width: 136px;
+    height: 102px;
+    float: left;
+}
+.tab-content-img1{
+    background: url("../../../static/xwez/images/yqt_01.png");
+}
+.tab-content-img01{
+    background: url("../../../static/xwez/images/yqt01.jpg");
+}
+.tab-content-img02{
+    background: url("../../../static/xwez/images/yqt02.jpg");
+}
+.tab-content-img03{
+    background: url("../../../static/xwez/images/yqt03.jpg");
+}
+.tab-content-img04{
+    background: url("../../../static/xwez/images/yqt04.jpg");
+}
+.tab-content-img2{
+    background: url("../../../static/xwez/images/yqt_04.png");
+}
+.tab-content-img3{
+    background: url("../../../static/xwez/images/yqt_02.png");
+}
+.tab-content-img4{
+    background: url("../../../static/xwez/images/yqt_05.png");
+}
+.tab-content-img5{
+     background: url("../../../static/xwez/images/yqt_03.png");
+ }
+.tab-content-img6{
+    background: url("../../../static/xwez/images/yqt_06.png");
+}
+.tab-content-text{
+    float: left;
+    margin-left: 8px;
+}
+.tab-content-ttitle a{
+    font-size: 14px;
+    color: #333;
+}
+.tab-content-ttext{
+    margin-top: 5px;
+    width: 339px;
+    line-height: 19px;
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 12px;
+    color: #666;
+}
+.tagging{
+    color: #1b8ae8;
+    cursor: pointer;
+}
+/*ul列表*/
+.tab-content-ul{
+    margin-left: 10px;
+}
+.tab-content-ul li{
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+    line-height: 28px;
+}
+.tab-content-ul li:hover{
+    color: #1b8ae8;
+}
+.uldate{
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+/*中间图片*/
+.box-lt2-left{
+    width: 320px;
+    height: 420px;
+    float: left;
+}
+.box-lt2-limg1{
+    background: url("../../../static/xwez/images/yce_01.jpg");
+}
+.box-lt2-limg2{
+    background: url("../../../static/xwez/images/yce_02.jpg");
+}
+.box-lt2-limg3{
+    background: url("../../../static/xwez/images/yce_03.jpg");
+}
+
+/*右边*/
+.tab-content-ul2 li{
+    line-height: 27px;
+}
+
+/*中间左边盒子*/
+.box-lett{
+    margin-top: 10px;
+    float: left;
+    width: 500px;
+    height: 420px;
+    background: white;
+    border-radius: 4px 0 0 0;
+}
+.box-lett-ttile{
+    width: 122px;
+    height: 40px;
+    background: #1b8ae8;
+    border-radius: 4px 4px 0 0;
+    font-size: 16px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*列表页*/
+.content-left{
+    float: left;
+    width: 380px;
+    height: 1141px;
+    margin-top: 20px;
+    background: url("../../../static/xwez/images/list_01.jpg");
+}
+.content-left-content{
+    width: 321px;
+    margin: 210px 0 0 29px;
+}
+.content-left-content img{
+    margin-top: 10px;
+}
+.content-left-tname{
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    margin: 2px 0 2px 0;
+}
+.content-left-ttext{
+    font-size: 14px;
+    color: #666;
+    text-indent: 2em;
+    text-align: justify;
+}
+.content-left-tmore{
+    cursor: pointer;
+    margin: 20px auto;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    border: 1px solid #999;
+    background: white;
+}
+.content-left-tmore:hover{
+    border: 1px solid #1b8ae8;
+    background: #1b8ae8;
+    color: white;
+}
+.content-right{
+    width: 810px;
+    height: 1141px;
+    float: right;
+    margin-top: 20px;
+    background: white;
+}
+.content-right-lists li{
+    display: block;
+    height: 135px;
+    width: 810px;
+}
+.content-right-lists li:nth-of-type(even){
+    background: #ededed;
+
+}
+.content-right-lists li:nth-of-type(odd){
+    background: white;
+}
+.crlists-rright-title{
+    font-size: 14px;
+    color: #333;
+}
+.crlists-right{
+    width: 155px;
+    height: 116px;
+    float: left;
+    padding: 10px 0 0 8px;
+}
+.crlists-right img{
+    width: 100%;
+    height: 100%;
+}
+.crlists-rright{
+    float: left;
+    padding: 16px 0 0 8px;
+}
+.crlists-rright-text{
+    padding-top: 4px;
+    width: 630px;
+    font-size: 12px;
+    color: #656565;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 16px;
+}
+.content-rlist-pages{
+    margin: 20px auto;
+    font-size: 14px;
+    text-align: center;
+}
+.content-rlist-pages span{
+    margin-left: 3px;
+    color: #656565;
+}
+
+/*文章页*/
+.content-aleft{
+    width: 890px;height: 1141px;
+    background: white;
+    margin-top: 14px;
+    float: left;
+}
+
+.content-right-abtxtt{
+    font-family: '微软雅黑',sans-serif;
+    background: white;
+    padding: 30px 30px 0 30px;
+}
+.content-right-abtxtt p{
+    text-indent: 25px;
+    font-size: 14px;
+}
+.content-right-abtxtt h1{
+    text-align: center;
+}
+.content-right-box-title1{
+    font-size: 18px;
+}
+.content-right-abtxtt p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.content-right-abtxtt h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content-right-abtxtt h4{
+    font-size: 16px;
+    line-height: 68px;
+}
+.content-right-abtxtt-pb{
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+.Article-right-tt{
+    text-align: center;
+    color: #656565;
+}
+.Article-right-tt span{
+    margin:0 15px;
+    color: #656565;
+}
+.Article-right-n{
+    color: #333;
+    text-align: justify;
+}
+
+/*文章页的右边部分*/
+.content-aright{
+    float: right;
+    margin-top: 5px;
+}
+.content-aright-box1{
+    height: 577px;
+    width: 300px;
+}
+.aright-box1-header{
+    width: 300px;
+    height: 128px;
+    background: url("../../../static/xwez/images/art_01.png");
+}
+.aright-box1-content{
+    width: 300px;
+    height: 439px;
+    background: white;
+}
+.aright-box1-content{
+    padding-top: 10px;
+}
+.aright-box1-content ul .artli{
+    font-size: 14px;
+    margin:8px 0 0 10px;
+    color: #333;
+    cursor: pointer;
+}
+.aright-box1-content ul .artli:hover{
+    color: #1B89E7;
+}
+.aright-box1-content ul .artdate{
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+    width: 290px;
+}
+.content-aright-box2{
+    width: 300px;
+    height: 568px;
+    margin-top: 5px;
+}
+.aright-box2-header{
+    width: 300px;
+    height: 119px;
+    background: url("../../../static/xwez/images/art_02.png");
+}
+
+
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #E3E3E3;font-size: 14px;opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #E3E3E3;font-size: 14px;opacity: 1;
+}
+
+input:-ms-input-placeholder{
+    color: #E3E3E3;font-size: 14px;opacity: 1;
+}
+
+input::-webkit-input-placeholder{
+    color: #E3E3E3;font-size: 14px;opacity: 1;
+}

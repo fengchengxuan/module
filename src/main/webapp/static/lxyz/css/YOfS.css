@@ -1,0 +1,274 @@
+.bagr{
+    width: 100%;
+    height: 26px;
+    background: #f5f5f5;
+}
+.reportway{
+    width: 1200px;
+    height: 26px;
+    padding-right: 20px;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 12px;
+    color: #656565;
+}
+.jdhimg{
+    width: 100%;
+    height: 200px;
+    background: url("../../../static/lxyz/images/banner4.jpg") no-repeat;
+}
+
+/*中间部分*/
+#content{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 10px 0 10px 0;
+}
+#jdcontent{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;;
+}
+.jdcontent_c{
+    padding: 10px 0 10px 0;
+    width: 1182px;
+    /*height: 540px;*/
+    margin: 0 auto;
+}
+/*左侧*/
+.Lfirst{
+    width: 260px;
+    height: 652px;
+    background: #d8f1fb;
+    float: left;
+    border: 1px solid #23A7E5;
+}
+.Lsecond{
+    width: 260px;
+    height: 652px;
+    background: #fbe0d5;
+    float: left;
+    border: 1px solid #eb652f;
+}
+.Lthird{
+    width: 260px;
+    height: 652px;
+    background: #fbd5d5;
+    float: left;
+    border: 1px solid #eb2727;
+}
+.a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+:focus{outline:0;}
+.tab_menu{
+    overflow:hidden;
+}
+.jdcontent_cleftt .tab_menu li{
+    width:130px;
+    float:left;
+    height:34px;
+    line-height:34px;
+    font-size: 14px;
+    text-align:center;
+    cursor:pointer;
+}
+.Lfirst .tab_menu li{  background: #23A7E5;  }
+.Lsecond .tab_menu li{  background: #eb652f;  }
+.Lthird .tab_menu li{  background: #eb2727;  }
+.Lfirst .tab_menu li.current{  background: #d8f1fb;  }
+.Lsecond .tab_menu li.current{  background: #fbe0d5;  }
+.Lthird .tab_menu li.current{  background: #fbd5d5;  }
+
+.jdcontent_cleftt .tab_menu li a{color:#fff;text-decoration:none; font-weight: bold;letter-spacing: 1px}
+.Lfirst .tab_menu li.current a{color:#23A7E5;}
+.Lsecond .tab_menu li.current a{color:#eb652f;}
+.Lthird .tab_menu li.current a{color:#eb2727;}
+.jdcontent_cleftt .tab_box{
+    width: 240px;
+    margin:0 auto;
+}
+.jdcontent_cleftt .tab_box li{
+    width: 240px;
+    float: left;
+    margin: 15px 0 0 0;
+    text-align: center;
+    line-height: 12px;
+}
+.jdcontent_cleftt .tab_box li span{
+    font-size:12px;
+    line-height: 30px;
+    color:#E52323;
+}
+.tab_box .hide{display:none;}
+
+
+
+
+.jdcontent_cboxr,.jdcontent_cboxc{
+    width: 450px;
+    border: 1px solid #dedede;
+    padding-bottom: 5px;
+}
+.jdcontent_cboxr{
+    float: right;
+}
+.jdcontent_cboxc{
+    margin-left:270px;
+}
+.jdcontent-boxl-titles{
+    width: 450px;
+    height: 49px;
+    border-bottom:1px solid #dedede;
+}
+.jdcontent-boxl-title1{
+    width: 137px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    margin: 5px 0 0 5px;
+    float: left;
+}
+/*初一*/
+.jdbtf{
+    background: -webkit-linear-gradient(0deg, #27b1eb, #60bfe7); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(0deg, #27b1eb, #60bfe7); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(0deg, #27b1eb, #60bfe7); /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, #27b1eb, #60bfe7);
+}
+.jdbts{
+    background: -webkit-linear-gradient(0deg, #eb5e27, #e79660); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(0deg, #eb5e27, #e79660); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(0deg, #eb5e27, #e79660); /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, #eb5e27, #e79660);
+}
+.jdbtt{
+    background: -webkit-linear-gradient(0deg, #eb2727, #e76060); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(0deg, #eb2727, #e76060); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(0deg, #eb2727, #e76060); /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, #eb2727, #e76060);
+}
+.jdcontent-boxl-title2{
+    width: 280px;
+    height: 49px;
+    line-height: 49px;
+    margin-left: 160px;
+    font-size: 16px;
+}
+.jdcontent-box-content img{
+    float: left;
+    width: 160px;
+    height: 120px;
+    margin-left: 8px;
+}
+.jdcontent-boxc-text{
+    width: 265px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666;
+    margin: 3px 0 0 178px;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+/*详细*/
+.sbcinfo{
+    color: #23a7e5;
+    cursor: pointer;
+}
+
+/*列表*/
+.jdcontent-box-list{
+    margin: 5px 0 0 10px;
+}
+.jdcontent-box-list ul li{
+    height: 26px;
+    line-height: 26px;
+    width: 430px;
+    border-bottom: 1px dashed #ccc;
+}
+.jdcontent-box-list ul li img{
+    margin-left: 3px;
+}
+.jdcontent-box-list ul li a{
+    font-size: 14px;
+    color: #333333;
+    margin-left: 8px;
+}
+.jdcontent-box-list ul li a:hover{
+    border-bottom: 1px solid royalblue;
+    color: #1E4FAD;
+}
+/*日期*/
+.sbldate{
+    font-size: 12px;
+    float: right;
+}
+
+/*右边的tab选项卡*/
+.jdcontent_ccbox{
+    width: 909px;
+    border: 1px solid #dedede;
+    margin: 10px 0 0 270px;
+    background: #fff;
+}
+.jdcontent_ccbox .tab_menu{
+    border-bottom: 1px solid #dedede;
+}
+/*查看更多*/
+.jdcontent_ccbox .box{
+    position: relative;
+}
+.jdcontent_ccbox .box .jdmore{
+    position: absolute;
+    top: 5px;
+    right: 10px
+}
+.jdcontent_ccbox .box .jdmore a{
+    font-size: 12px;
+    color: #999;
+}
+.jdcontent_ccbox .tab_menu li{
+    width:125px;
+    float:left;
+    height:30px;
+    line-height:30px;
+    font-size: 14px;
+    text-align:center;
+    cursor:pointer;
+}
+.jdcontent_ccbox .tab_menu li a{
+    display: block;
+    height:29px;
+    line-height:29px;
+    color:#999;
+    text-decoration:none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.jctabf .tab_menu li.current a{color:#23A7E5;border-bottom: 1px solid #23A7E5}
+.jctabs .tab_menu li.current a{color:#eb5e27;border-bottom: 1px solid #eb5e27}
+.jctabt .tab_menu li.current a{color:#eb2727;border-bottom: 1px solid #eb2727}
+.jdcontent_ccbox .tab_box{
+    height: 212px;
+}
+.jdcontent_ccbox .tab_box li{
+    width: 280px;
+    float: left;
+    margin: 10px 0 0 18px;
+    text-align: center;
+    line-height: 12px;
+}
+.jdcontent_ccbox .tab_box li img{
+    width: 280px;
+    height: 170px;
+}
+.jdcontent_ccbox .tab_box li span{
+    font-size:12px;
+    line-height: 30px;
+    color:#E52323;
+}

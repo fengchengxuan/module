@@ -1,0 +1,11 @@
+#top ul li a .s2{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #1B89E7;
+    box-sizing: border-box;
+    border-bottom: 2px solid #1d8be8;
+}
+#header{
+    background: url("../../../static/xwez/images/Re-banner.jpg");
+}

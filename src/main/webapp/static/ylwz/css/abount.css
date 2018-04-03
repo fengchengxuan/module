@@ -1,0 +1,219 @@
+.content_bg{
+    width: 100%;
+    background: #f5f5f5;
+}
+@media only screen and (min-width:1200px ) {
+	#content{
+	    width: 1200px;
+	    margin: 0 auto;
+	    padding-bottom: 20px;
+	    overflow: hidden;
+	}
+	.content_topl img{
+	    width: 1000px;
+	    height: 350px;
+	}
+	.content_topl{
+	    width: 1000px;
+	    height: 350px;
+	}
+	.content_right{
+	    width: 190px;
+	    height: 630px;
+	    margin-top: 20px;
+	    margin-left: 1010px;
+	}
+	.content_topr{
+	    width: 191px;
+	    height: 350px;
+	    color: #00b7ee;
+	    float: right;
+	}
+	.article{
+	    width: 1000px;
+	    padding: 15px 25px 15px 15px;
+	    background: #fff;
+	}
+	.content_topr ul li{
+	    width: 191px;
+	    margin-top: 15px;
+	    height: 52px;
+	    text-align: center;
+	    background: url("../../../static/ylwz/images/about_li.png");
+	}
+	.abount{
+   	 	float: left;
+	}
+
+}
+@media only screen and (max-width:1200px ) {
+	#content{
+	    width: 100%;
+	    margin: 0 auto;
+	    padding-bottom: 20px;
+	    overflow: hidden;
+	}
+	.content_topl img{
+	    width: 100%;
+	}
+	.content_topl{
+	    width: 100%;
+	}
+	.content_right{
+	    display: none;
+	}
+	.content_topr{
+	    width: 100%;
+	    color: #00b7ee;
+	    overflow: hidden;
+	}
+	.article{
+	    width: 100%;
+	    padding: 15px 25px 15px 15px;
+	    background: #fff;
+	}
+	.content_topr ul li{
+	    width: 18%;
+	    margin-top: 15px;
+	    height: 52px;
+	    text-align: center;
+	    background: url("../../../static/ylwz/images/about_li.png");
+	    background-size:100% 100% ;
+	}
+	.abount{
+		width: 100%;
+	}
+	.tab_menu{
+		width: 100%;
+    	position: relative;
+    	top: 0;
+    	left: 50%;
+    	margin-left: -47%;
+	}
+}
+@media only screen and (max-width:544px ) {
+	.content_topr ul li{
+	    width: 29%;
+	    margin-top: 15px;
+	    height: 52px;
+	    text-align: center;
+	    background: url("../../../static/ylwz/images/about_li.png");
+	    background-size:100% 100% ;
+	}
+}
+#content .tab_menu .frist{
+	margin-left: 10px;
+}
+
+
+
+
+.content_topr ul li a{
+    display: block;
+    padding-top: 27px;
+    font-size: 0.28rem;
+    color: #656565;
+}
+.content_topr ul li.current a{
+    color: #4AB244;
+}
+.tab_box .hide{display:none;}
+
+
+.showimg{
+    text-align: center;
+}
+@media  screen and (min-width: 1000px) and  (max-width: 1200px) {
+	.showimg{
+	    text-align: center;
+	    padding: 3%;
+	}
+}
+.article_content{
+}
+.article p{
+    font-size: 0.28rem;
+    color: #656565;
+    line-height: 25px;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.article p.title{
+    color: #333333;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.article .pages{
+    /*margin-top: 6px;*/
+    text-align: center;
+}
+.article .pages span{
+    font-size: 14px;
+    color: #7F7F7F;
+    margin: 0 10px;
+}
+/*加入雅兰王子*/
+.Etitle{
+    font-size: 20px;
+    color: #E0E0E0;
+    padding-top: 16px;
+}
+.Ctitle{
+    font-size: 20px;
+}
+.Ctitlemd{
+    color: #4AB244;
+}
+.Ctitlejznsb{
+    color: #656565;
+}
+.underline{
+    margin: 2px 0 26px 0;
+}
+.imgldiv{
+	display: inline-block;
+    width: 270px;
+    height: 180px;
+    position: relative;
+}
+.addrtel{
+    width: 270px;
+    height: 140px;
+    padding-top: 40px;
+    display: none;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background: #49B343;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.addrtel .addrtel_t{
+    display: block;
+    float: left;
+    width: 50px;
+}
+.addrtel .addrtel_n{
+    display: block;
+    margin-left: 50px;
+    width: 157px;
+}
+.addrtel div{
+    width: 210px;
+    margin: 15px auto;
+}
+.imgldiv:hover .addrtel{
+    display: block;
+}
+.imglfet{
+}
+.imgcenter{
+}
+.imgright{
+}
+
+

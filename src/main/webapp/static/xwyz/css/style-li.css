@@ -1,0 +1,196 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.message{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.message .phone{
+    float: right;
+    height: 18px;
+    margin: 26px 10px 0 0;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    color: #B98747;
+}
+.message .choose{
+    float: right;
+    margin: 68px -142px 0 0;
+}
+.message .choose span{
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
+.header{
+    width: 100%;
+    height: 36px;
+}
+a{
+    text-decoration: none;
+}
+.header ul{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header ul .title{
+    width: 165px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    line-height: 36px;
+}
+.click{
+    width: 165px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    line-height: 36px;
+}
+.header ul li a {
+    font-family: "微软雅黑",sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.aa1 ul{
+    display: none;
+}
+.aa0:hover .reset-p1{
+    display: block;
+}
+.aa0 a:hover .reset-p1{
+    display: block;
+}
+.reset-p1 li{
+    background: #188ed9;
+}
+.reset-p1 li:hover{
+    background:  #44baf7;
+}
+.aboutlist,.newslist,.servicelist,.caselist{
+    list-style: none;
+    line-height: 36px;
+    display: none;
+    position: absolute;
+    z-index: 200;
+}
+.about:hover .aboutlist{
+    display: block;
+}
+.news:hover .newslist{
+    display: block;
+}
+.service:hover .servicelist{
+    display: block;
+}
+.case:hover .caselist{
+    display: block;
+}
+.aboutlist li,.newslist li,.servicelist li,.caselist li{
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    background-color: #d6b21e;
+    width: 165px;
+    color:white;
+}
+.adver{
+    width: 1000px;
+    height: 36px;
+    margin: 0 auto;
+}
+.adver .title{
+    height: 24px;
+    width: 68px;
+    line-height: 24px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    position: relative;
+    top:5px
+}
+.imglist1{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top:10px;
+}
+.imglist1 .house{
+    float: left;
+    height: 133px;
+    font-family: "微软雅黑",sans-serif;
+    background-color: white;
+}
+.imglist1 .house img{
+    float: left;
+}
+.imglist1 .house .text{
+    float: left;
+    width: 133px;
+    margin: 0 0 0 5px;
+}
+/*案例展示*/
+.caseshow{
+    width: 1000px;
+    height: 36px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+.caseshow .title{
+    height: 24px;
+    width: 68px;
+    line-height: 24px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    position: relative;
+    top:5px
+}
+.caseshow span{
+    line-height: 36px;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    color: #333333;
+    margin: 0 0 0 10px;
+}
+.lianjie{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top:98px
+}
+.lianjie span,.lianjie a{
+    font-family: "微软雅黑",sans-serif;
+    color: #555;
+    font-size: 12px;
+}
+
+/*脚部*/
+.footer{
+    background-color: #474747;
+    height: 112px;
+    width: 100%;
+}
+.footer .left{
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    top:20px;
+}
+.footer .right{
+    float: right;
+    font-family: "微软雅黑",sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: right;
+    line-height: 20px;
+}
+.ways,.ways a{
+    font-size: 12px;
+    color: #656565;
+}

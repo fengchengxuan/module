@@ -1,0 +1,25 @@
+/*导航*/
+#content{
+    background: #f5f5f5;
+}
+.Ac-c2,.Ac-c1{
+    float: left;
+}
+.Ac-c1{
+    width: 810px;
+    height: 850px;
+}
+.gr-Ac-c2{
+    background: url("../../../static/xwez/images/re-url.jpg");
+}
+#header{
+    background: url("../../../static/xwez/images/Re-banner1.jpg") no-repeat;
+}
+#top ul li a .s3{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #1B89E7;
+    box-sizing: border-box;
+    border-bottom: 2px solid #1d8be8;
+}

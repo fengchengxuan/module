@@ -1,0 +1,96 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.incon_title{
+    width: 1200px;
+    height: 45px;
+}
+.ititle1{
+    margin-top: 5px;
+    background: url(../../../static/jzt/images/yzbase_t1.png) no-repeat;
+}
+.ititle2{
+    margin-top: 20px;
+    background: url(../../../static/jzt/images/yzbase_t2.png) no-repeat;
+}
+.ititle3{
+    margin-top: 20px;
+    background: url(../../../static/jzt/images/yzbase_t3.png) no-repeat;
+}
+.incon_base_lists{
+    margin-top: 10px;
+    height: 228px;
+}
+.incon_base_lists ul li{
+    float: left;
+    margin-left: 20px;
+    width: 285px;
+    height: 228px;
+}
+.incon_base_lists ul li:first-child{
+    margin-left: 0;
+}
+.base_text{
+    margin-top: 1px;
+    width: 285px;
+    height: 65px;
+}
+.baseli_bg{
+    width: 2px;
+    height: 65px;
+    float: left;
+    margin-right: 5px;
+}
+.baseli1{
+    background: #00A1E9;
+}
+.baseli2{
+    background: #DB213D;
+}
+.baseli3{
+    background: #E98300;
+}
+.baseli_title{
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #333333;
+}
+.baseli_title a{
+    font-size: 16px;
+    color: #333333;
+}
+.baseli{
+    font-size: 14px;
+    color: #656565;
+}
+.baseli_right{
+    margin-left: 18px;
+}
+
+/**/
+.base_title{
+    width: 1200px;
+    height: 30px;
+    margin-top: 8px;
+}
+.baset_in{
+    padding: 0 50px;
+    font-size: 14px;
+    color: #656565;
+    line-height: 30px;
+}
+.baset_in span{
+    margin-right: 18px;
+}
+.btitle1{
+    background: url(../../../static/jzt/images/yzbase_lt1.png);
+}
+.btitle2{
+    background: url(../../../static/jzt/images/yzbase_lt2.png);
+}
+.btitle3{
+    background: url(../../../static/jzt/images/yzbase_lt3.png);
+}

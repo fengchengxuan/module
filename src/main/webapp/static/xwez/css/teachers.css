@@ -1,0 +1,80 @@
+a,a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+.teacont-box{
+    margin-top: 20px;
+}
+.teacont-box-li1{
+    width: 1200px;
+    height: 168px;
+}
+.teacont-box-li1img{
+     width: 207px;
+     height: 170px;
+     float: left;
+ }
+.teacont-box-li1img2{
+    width: 207px;
+    height: 170px;
+    float: right;
+}
+.teacont-box-litext{
+    height: 148px;
+    width: 1180px;
+    background: white;
+    padding: 10px;
+    float: right;
+    position: relative;
+}
+.teacont-box-litext img{
+    width: 197px;
+    height: 148px;
+    float: right;
+}
+.teacont-box-liname{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.teacont-box-liinfo{
+    font-size: 16px;
+    color: #656565;
+    line-height: 28px;
+    text-align: justify;
+    margin:8px 207px 0 0;
+}
+.teacont-box-limore a{
+    font-size: 14px;
+    color: #656565;
+    position: absolute;
+    right: 218px;
+    bottom: 7px;
+}
+.teacont-box-limore a:hover{
+    color: #1B89E7;
+}
+.mat{
+    margin-top: 10px;
+}
+.matli{
+    margin-top: 15px;
+}
+/*文科名牌教师*/
+.teacont-box-litext2{
+    height: 148px;
+    width: 1180px;
+    background: white;
+    padding: 10px;
+    float: right;
+    position: relative;
+}
+.teacont-box-litext2 img{
+    width: 197px;
+    height: 148px;
+    float: left;
+}
+.lileft2{
+    margin-left: 217px;
+    margin-right: 0;
+}

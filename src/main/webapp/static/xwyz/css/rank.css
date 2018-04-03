@@ -1,0 +1,35 @@
+.anav-7{
+    background: #44baf7;
+}
+#content {
+    width: 1300px;
+    margin: 0 auto;
+    height: 1990px;
+}
+.cwid{
+    line-height: 29px;
+    width: 450px;
+    margin-left: 10px;
+}
+.winner{
+    width: 279px;
+    position: relative;
+    left: -13px;
+    height: 492px;
+    background: url("../../../static/xwyz/images/kj-bg.png");
+}
+.win_box{
+    width: 239px;
+    height: 191px;
+    margin-top: 10px;
+    background: white;
+    position: relative;
+    left: 21px;
+    top: 76px;
+}
+.win_box img{
+    margin: 15px 0 3px 12px;
+}
+#footer{
+    margin-top: 30px;
+}

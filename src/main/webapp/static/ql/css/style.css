@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 1000px;
+    font-size: 12px;
+    font-family: '微软雅黑',sans-serif;
+    color: #333;
+}
+#top{
+
+}
+#top img{
+    position: relative;top: 9px;
+}
+#top .top1{
+    width: 100%;
+    background: #dedede;
+    height: 40px;
+}
+ul{
+    list-style: none;
+}
+#top>div>div{
+    width: 1000px;
+    margin: 0 auto;
+    line-height:40px;
+    height: 40px;
+}
+#top .top1 a:link{
+    text-decoration: none;
+    color: #333;
+}
+#top .top1 a:visited{
+    color: #333;
+}
+#top .top1 a{
+    margin-left: 20px;
+}
+#top .top1 .topa1{
+    margin-left: 660px;
+}
+#top .top2{
+    width: 100%;
+
+}
+#top .top2>div{
+    height: 70px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#top .top2>div>img{
+    margin-left: 3px;
+    float: left;
+    margin-top: 3px;
+}
+#top ul li{
+    float: left;
+}
+#top ul li a{
+    margin-top:16px ;
+    margin-left:8px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 97px;
+    height: 39px;
+    border-radius: 4px;
+
+}
+#top ul li a:hover{
+    background: #ff7f02;
+    color: white;
+}
+#top ul{
+    margin-left:355px;
+}
+
+
+
+/*底部*/
+#footer{
+    width: 100%;
+    height: 100px;
+    background: #dedede;
+}
+#footer .footer{
+    width: 1000px;
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+    height: 100px;
+}
+#footer .footer img{
+    margin-top: 10px;
+    float: left;
+}
+#footer .footer-WeChat{
+    position: relative;top: 30px;left: 8px;
+}
+.footer-WeChat{
+    width: 73px;
+}
+.copyright{
+    float: right;
+    text-align: center;
+    width: 550px;
+    height: 70px;
+    margin-top:25px ;
+}
+.copyright p{
+    line-height: 26px;
+}

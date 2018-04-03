@@ -1,0 +1,200 @@
+/*金榜题名*/
+.TPblem ul{
+    width: 194px;
+    margin: 0 auto;
+}
+.TPblem .Pb-content{
+    padding-top: 280px;
+}
+.TPblem ul li{
+    width: 26px;
+    height: 36px;
+    float: left;
+    border: 1px solid #999999;
+    margin-left: 5px;
+    margin-top: 8px;
+    border-radius: 2px;
+}
+.Pb-content-zh{
+    font-size: 12px;
+    color: #9f1f24;
+}
+.Pb-content-bang{
+    font-size: 14px;
+    color: #9f1f24;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*快报选项卡*/
+.exptab{
+    position: relative;
+}
+.exptab .nav-tabs{
+    height: 38px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #CBCBCB;
+}
+.exptab .chmore{
+    position: absolute;
+    top: 19px;
+    right: 10px;
+}
+.exptab .nav-tabs li{
+    padding-left: 15px;
+}
+.exptab .nav-tabs li a{
+    height: 38px;
+    margin-right: 1px;
+    line-height: 38px;
+    font-size: 18px;
+    color: #666666;
+    padding: 0 5px;
+    border: none;
+    border-radius: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+.exptab .nav-tabs li a:hover{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: inherit;
+    border-bottom: #168DD8;
+    opacity: 0.9;
+}
+.exptab .nav-tabs li.active a{
+    opacity: 1;
+}
+.exptab .nav-tabs li.active a,
+.exptab .nav-tabs li.active a:hover,
+.tab .nav-tabs li.active a:focus{
+    color: #168DD8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #168DD8;
+}
+.exptab .nav-tabs li a:hover span{
+    font-size: 16px;
+}
+.exptab .nav-tabs li.active a span {
+    letter-spacing: 1px;
+    opacity: 1;
+    font-size: 19px;
+    margin: 4px 0 0 16px;
+    transition: all 0.3s ease 0s;
+}
+.exptab .nav-tabs li.active a{
+    color: #168DD8;
+    height: 38px;
+    border-bottom: 1px solid #168DD8;
+    transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width: 479px){
+    .tab .nav-tabs li{
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .tab .nav-tabs li a span{
+        letter-spacing: 1px;
+        opacity: 1;
+    }
+}
+
+/*家长重托*/
+.Parents {
+    width: 100%;
+    margin-top: 15px;
+}
+.Parents ul{
+    margin-left: 395px;
+    height: 39px;
+}
+.Parents ul li{
+    float: left;
+    text-align: center;
+    background: #329de7;
+    color: white;
+}
+.Other{
+    width: 146px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 18px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 2px 0 7px 0 #656565;
+    position: relative;z-index: 9;
+}
+.Own{
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 9px;
+    border-radius: 0 4px 0 0;
+}
+.Show-Ot{
+    width: 975px;
+    height: 266px;
+    border: 1px solid #999;
+    background: white;
+    border-radius: 4px;
+}
+.Show-Ot hr{
+    width: 900px;
+    margin: 14px auto 0 auto;
+    color: white;
+    background: white;
+}
+.Show-Ot .text{
+    width: 951px;
+    height: 83px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 2em;
+    margin: 16px auto 0 auto;
+}
+.Show-Ot .ip{
+    width: 951px;
+    height: 16px;
+    text-align: right;
+}
+/*模态框*/
+.model-title{
+    width: 537px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    color: white;
+    text-indent: 1em;
+    letter-spacing: 2px;
+    background: url("../../../static/xwyz/images/mot.png");
+}
+.modal .modal-body textarea{
+    width: 765px;
+    height: 276px;
+    margin-top: 1px;
+    max-width: 765px;
+    max-height: 276px;
+    text-align: left;
+    padding: 5px 8px;
+    box-shadow: 2px 2px 8px #ccc inset;
+}
+.modal .btnbox{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.modal .btnbox button{
+    width: 111px;
+    height: 30px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background: #3da3e9;
+    margin-left: 26px;
+}

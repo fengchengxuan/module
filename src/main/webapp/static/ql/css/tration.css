@@ -1,0 +1,190 @@
+.conten_box1{
+    width: 1000px;
+    margin: 10px auto 0 auto;
+    height: 360px;
+}
+.conten_box1_left{
+    width: 410px;
+    height: 360px;
+    float: left;
+    background: url(../../../static/ql/images/tra_01.jpg);
+}
+.conten_box1_right{
+    width: 556px;
+    margin-top: 35px;
+    float: right;
+    font-size: 16px;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    line-height: 28px;
+}
+
+/*股东背景*/
+.conten_box2{
+    width: 1000px;
+    margin: 30px auto 0 auto;
+}
+.conten_box2_title{
+    width: 1000px;
+    height: 62px;
+    background: url(../../../static/ql/images/ttitle_01.png);
+}
+.conten_box2_list{
+    margin-top: 15px;
+    height: 470px;
+}
+.box2_list1,.box2_list2,.box2_list3{
+    position: relative;
+    width: 320px;
+    height: 470px;
+    box-shadow: 0 0 5px 1px #c3c3c3;
+    text-align: center;
+}
+.box2_list1 span,.box2_list2 span,.box2_list3 span{
+    display:none; text-decoration:none;
+}
+.box2_list1:hover,.box2_list2:hover,.box2_list3:hover{
+    cursor: pointer;
+}
+.box2_list1:hover span,.box2_list2:hover span,.box2_list3:hover span{
+    display:block;position:absolute; bottom:5px; left:5px;color:#FFF;width:310px;
+    z-index:10;height:50px; line-height:50px; background:#FF7D00;
+    font-size: 18px;letter-spacing: 1px;
+}
+.box2_list1{
+    float: left;
+    background: url(../../../static/ql/images/bg_01.jpg);
+}
+.box2_list3{
+    float: right;
+    background: url(../../../static/ql/images/bg_03.jpg);
+}
+.box2_list2{
+    margin:0 auto;
+    background: url(../../../static/ql/images/bg_02.jpg);
+}
+
+/*保驾护航*/
+.conten_box3{
+    margin-top: 15px;
+    width: 100%;
+    height: 615px;
+    background: #eee;
+}
+.conten_box3_title{
+    width: 1000px;
+    height: 34px;
+    margin: 0 auto 0 auto;
+    padding-top: 25px;
+    background: url("../images/ttitle_02.png")bottom left no-repeat;
+}
+.conten_box3_bg{
+    width: 1000px;
+    height: 520px;
+    margin: 15px auto 0 auto;
+    background: url("../images/libg_03.jpg");
+    position: relative;
+}
+.conten_box3_bg div{
+    display:none; text-decoration:none;
+}
+.conten_box3_bg:hover{
+    cursor: pointer;
+}
+.conten_box3_bg:hover div{
+    display:block;color:#FFF;width:100%;
+    z-index:10;height:100%;
+    text-align: center;
+}
+.conten_box3_bg:hover div .info{
+    width: 561px;
+    height: 176px;
+    margin: 0 auto;
+    position:absolute;
+    bottom:35%; left:25%;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+}
+
+/*移动互联金融创新*/
+.conten_box4{
+    width: 1000px;
+    margin: 25px auto 20px auto;
+}
+.conten_box4_title{
+    width: 1000px;
+    height: 68px;
+    background: url(../../../static/ql/images/ttitle_03.png);
+}
+.conten_box4_bg{
+    margin-top: 10px;
+    height: 584px;
+}
+.conten_box4_bgl,.conten_box4_bgr{
+    width: 480px;
+    height: 584px;
+    position: relative;
+}
+.conten_box4_bgl{
+    background: url(../../../static/ql/images/libgl_04.jpg);
+    float: left;
+}
+.conten_box4_bgr{
+    background: url(../../../static/ql/images/libgr_04.jpg);
+    float: right;
+}
+.conten_box4_bgl div,.conten_box4_bgr div{
+    display:none; text-decoration:none;
+}
+.conten_box4_bgl:hover,.conten_box4_bgr:hover{
+    cursor: pointer;
+}
+.conten_box4_bgl:hover div{
+    display:block;color:#FFF;width:100%;
+    z-index:10;height:100%;
+}
+.conten_box4_bgr:hover div{
+    display:block;color:#FFF;width:100%;
+    z-index:10;height:100%; background:#000;filter:alpha(opacity=60);-moz-opacity:0.8;opacity: 0.8;
+}
+.conten_box4_bgl:hover div .info{
+    width: 403px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    position:absolute;
+    top:28%; left:8%;
+}
+.conten_box4_bgr:hover div span{
+    width: 429px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    position:absolute;
+    top:28%; left:8%;
+}
+
+/*微交易简单四步骤*/
+.conten_box5{
+    width: 100%;
+    height: 342px;
+    background: #eee;
+}
+.conten_box5_title{
+    width: 1000px;
+    height: 59px;
+    margin: 0 auto 0 auto;
+    padding-top: 15px;
+    background: url(../../../static/ql/images/ttitle_04.png)bottom left no-repeat;
+}
+.conten_box5_steps{
+    width: 910px;
+    height: 172px;
+    margin: 35px auto 0 auto;
+    background: url(../../../static/ql/images/steps.png);
+}

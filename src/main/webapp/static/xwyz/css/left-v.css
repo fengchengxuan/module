@@ -1,0 +1,35 @@
+.left-v ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    width: 230px;
+    height: 0;
+    border-bottom: 1px dashed #ccc;
+    border-top: 0;
+    background: transparent;
+
+}
+li:hover{
+    color: #158DD8;
+}
+.left-v ul li:first-child{
+    color: #fff;
+    background: #188ed9;
+}
+.left-v ul li:first-child:hover{
+    color: #fff;
+}
+.left-v ul li{
+    padding-left: 40px;
+    line-height: 40px;
+    height: 40px;
+}
+.left-v ul li:first-child{
+    padding: 0;
+}
+.left-li{
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content_right{
+    width: 810px;
+    float: right;
+}
+.content_right hr{
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #EDEDED;
+    margin: 15px 0;
+}
+.lists{
+    height: 154px;
+}
+.lists-img{
+    width: 221px;
+    height: 154px;
+    float: left;
+}
+.lists-inner{
+    margin-left: 235px;
+}
+.lists-title{
+    padding-top: 8px;
+}
+.lists-title a{
+    font-size: 16px;
+    color: #333333;
+}
+.lists-title a:hover{
+    color: #E92C2C;
+}
+.lists-title .date{
+    float: right;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #999999;
+}
+.lists-text{
+    margin-top: 5px;
+    height: 115px;
+    font-size: 14px;
+    color: #656565;
+    line-height: 23px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-indent: 2em;
+}
+.lists-text a{
+    font-size: 14px;
+    color: #999999;
+}
+.lists-text a:hover{
+    color: #E92C2C;
+}
+
+.rnlist{
+    width: 368px;
+    height: 468px;
+    border: 1px solid #CBCBCB;
+}
+.rnlist:hover{
+    border: 1px solid #E92C2C;
+}
+.rnlist-img,.rnlist-img img{
+    width: 368px;
+    height: 250px;
+}
+.rnlist-title{
+    margin-top: 8px;
+    height: 40px;
+    line-height: 20px;
+    padding: 0 10px 0 8px;
+}
+.rnlist-title a{
+    font-size: 14px;
+    color: #333333;
+    line-height: 19px;
+}
+.rnlist-title a:hover{
+    color: #E92C2C;
+    border-bottom: 1px solid #E92C2C;
+}
+
+.rnlist-price{
+    height: 30px;
+    padding: 0 8px;
+    margin-top: 18px;
+}
+.rnlist-price-text{
+    font-size: 12px;
+    color: #656565;
+    line-height: 30px;
+}
+.rnlist-price-num{
+    font-size: 20px;
+    line-height: 30px;
+    color: #E92C2C;
+    letter-spacing: 1px;
+    margin-right: -2px;
+}
+.rnlist-price button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffffff;
+    float: right;
+    background: #E92B2B;
+    cursor: pointer;
+}

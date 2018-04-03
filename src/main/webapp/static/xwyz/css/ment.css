@@ -1,0 +1,41 @@
+.contener {
+    width: 1300px;
+    margin: 0 auto;
+    height: 800px;
+}
+.contener .ways {
+    margin: 10px 0 0 20px;
+}
+.contener .inner{
+    background: white;
+    margin:10px auto auto 20px;
+}
+.contentbox-table1{
+    margin:10px auto auto 20px;
+    border-collapse: collapse;
+}
+.contentbox-table1 thead tr{
+    background: white;
+}
+.contentbox-table1 thead th{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+}
+.contentbox-table1 tbody td{
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    text-align: center;
+}
+.contentbox-table1 tbody td span{
+    cursor: pointer;
+}
+/*全选*/
+.contentbox-table1 tbody td .check{
+    float: left;
+    margin-left: 12px
+}

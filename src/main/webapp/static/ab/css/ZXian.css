@@ -1,0 +1,159 @@
+#content{
+    width: 1200px;
+    height: 925px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+/*左边部分*/
+.content_left{
+    width: 300px;
+    float: left;
+}
+.content_left_box1{
+    width: 304px;
+    height: 540px;
+    position: relative;
+    background: url("../../../static/ab/images/ZXle_01.png")no-repeat;
+}
+.left_box_title{
+    height: 40px;
+    width: 125px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #1F85DB;
+    font-weight: bold;
+}
+.left_box_inner{
+    padding: 5px 16px 0 13px;
+}
+.left_box_inner p{
+    font-size: 12px;
+    line-height: 21px;
+    color: #656565;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.left_box_inner a{
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #1F85DB;
+}
+
+.content_left_box2{
+    margin-top: 16px;
+    width: 304px;
+    height: 371px;
+    background: url("../../../static/ab/images/ZXle_02.png")no-repeat;
+}
+.box_inner_HR{
+    padding-left: 25px;
+    font-size: 12px;
+    color: #656565;
+}
+.box_inner_HR div{
+    height: 22px;
+    line-height: 22px;
+}
+.HR-title{
+    display: block;
+    float: left;
+    width: 50px;
+    text-align:justify;
+    text-align-last: justify;
+}
+.HR-text{
+    display: block;
+    float: left;
+    width: 50px;
+    text-align:justify;
+    text-align-last: justify;
+}
+
+/*右边部分*/
+.content_right{
+    width: 891px;
+    height: 925px;
+    float: right;
+    position: relative;
+    background: #F4F4F4;
+}
+.ZXian .tab_menu{
+    width: 832px;
+    height: 30px;
+    padding-top: 5px;
+    margin: 0 auto;
+    border-bottom: 1px solid #BEBEBE;
+}
+.ZXian .tab_menu li{
+    float: left;
+    width: 70px;
+    margin-left: 20px;
+    text-align: center;
+}
+.ZXian .tab_menu li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+.ZXian .tab_menu li.current a{
+    color: #1F85DB;
+    border-bottom: 1px solid #1F85DB;
+}
+.ZXian .tab_box .item{
+    margin-top: 25px;
+    padding-left: 60px;
+}
+.ZXian .tab_box .item p{
+    line-height: 25px;
+    font-size: 14px;
+    color: #656565;
+}
+.tab_box .hide{
+    display: none;
+}
+.pages{
+    position: absolute;
+    bottom: 15px;
+    left: 270px;
+}
+.pages span{
+    font-size: 12px;
+    color: #656565;
+    margin: 0 8px;
+}
+
+/*办公环境*/
+.ZXian_lists{
+    padding:0 0 0 30px;
+}
+.lists_title{
+    margin-top: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.lists_title span{
+    font-size: 16px;
+    color: #656565;
+}
+.lists_title img{
+    width: 17px;
+    height: 15px;
+    float: left;
+    margin-right: 3px;
+    margin-top: 7px;
+}
+.ZXian_lists ul{
+    height: 164px;
+}
+.ZXian_lists ul li{
+    float: left;
+    margin-left: 20px;
+}
+.ZXian_lists ul li:first-child{
+    margin-left: 0;
+}

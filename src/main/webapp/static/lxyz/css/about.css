@@ -1,0 +1,117 @@
+#footer{
+    clear: both;
+    position: relative;
+    top: 15px;
+}
+body{
+    font-size: 12px;
+    color: #333;
+    background: #f5f5f5;
+}
+#nav .navul .navli10 a{
+    background: -webkit-linear-gradient(0deg, #86abee, #d9e3f5);
+    background: -o-linear-gradient(0deg, #86abee, #d9e3f5);
+    background: -moz-linear-gradient(0deg, #86abee, #d9e3f5);
+    background: linear-gradient(0deg, #86abee, #d9e3f5);
+    color: #1e50ae;
+}
+.EC-box{
+    height: 1140px;
+    float: right;
+}
+.EC-right{
+    width: 985px;
+    background: white;
+}
+.EC-left{
+    height: 355px;
+    margin-right: 10px;
+    width: 205px;
+}
+.EnglishCoa h3{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.EC-title{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    height: 70px;
+    width:945px;
+    line-height: 70px;
+}
+.EC-title span{
+    margin: 0 20px;
+}
+.EC-title img{
+    margin-left: 10px;
+    position: relative;top: 3px;
+}
+.EC-Article p{
+    text-justify:inter-ideograph;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 28px;
+    color: #666;
+    font-size: 14px;
+}
+.EC-AC-box{
+    width:905px;
+    height: auto;
+    padding: 0 40px;
+}
+.EnglishCoa h5{
+    text-indent: 28px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 16px;
+}
+.EC-text span{
+    font-size:16px;
+    font-style:oblique
+}
+.EnglishCoa .EC-paging{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.h5{
+    margin-top: 18px;
+}
+.EC-text-div{
+
+    padding: 18px 0 0 0;
+}
+.EC-text-div p{
+    color: #333;
+}
+.EC-left li{
+    width: 205px;
+    height: 40px;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.EC-left li a{
+    font-size: 14px;
+    width: 185px;
+    height: 40px;
+    display: block;
+    color: #333;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+}
+.EC-left li a:hover{
+    border-bottom:1px solid #ccc;
+    color: #dc1111;
+    background: url("../../../static/lxyz/images/about-hover.png");
+}
+.EC-text p{
+    text-indent: 0;
+}
+/*右边样式*/

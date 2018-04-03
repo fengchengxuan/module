@@ -1,0 +1,166 @@
+.footer-top-1{
+    position: relative;top: 33px;
+}
+button{
+    cursor: pointer;
+}
+/*头部*/
+.footer-top-1{
+    position: relative;top: 33px;
+}
+html, body, div, span, iframe, map, font, img, a img, samp, strong, hr, h1, h2, h3, h4, h5, h6, b, p, blockquote, a, address, code, dl, dt, dd, ol, ul, li, form, label, table, tr, td, th{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    font-family: '微软雅黑',sans-serif;
+}
+body{
+    background: #f1f1f1;
+    font-family: '微软雅黑',sans-serif;
+    font-size: 12px;
+    min-width: 1250px;
+}
+#top{
+    width: 1230px;
+    height:80px;
+
+    margin: 0 auto;
+    padding: 0;
+    letter-spacing: 3px;
+}
+#top img{
+    margin-left: 30px;
+}
+.login{
+    width: 100px;
+    margin:-40px 0 0 980px ;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    background: #168dd9;
+}
+#nav  .nav-li{
+    width: 1250px;
+    height: 50px;
+    margin:  0 auto;
+}
+#nav .nav-li li{
+    float: left;
+    width: 127px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 1px #012965;
+}
+.aa1 ul{
+    display: none;
+}
+.aa0:hover .reset-p1{
+    display: block;
+}
+.aa0 a:hover .reset-p1{
+    display: block;
+}
+.reset-p1 li{
+    background: #188ed9;
+}
+.reset-p1 li:hover{
+    background:  #44baf7;
+}
+#nav li a{
+    display: block;
+    width: 102px;
+    height: 50px;
+}
+#nav a:link {
+    text-decoration: none;
+    color: white;
+}      /* 未访问链接*/
+#nav a:visited {
+    text-decoration: none;
+    background: #44baf7;
+    color: white;
+;}  /* 已访问链接 */
+#nav a:hover {
+    text-decoration: none;
+    background: #44baf7;
+}  /* 鼠标移动到链接上 */
+#nav a:active {
+    background: #44baf7;
+    text-decoration: none;
+    text-shadow: 3px 2px 1px #012965;
+}  /* 鼠标点击时 */
+
+
+/*底部*/
+#footer{
+    width: 100%;
+    height: 130px;
+    background: white;
+    color: #333;
+    font-family: '微软雅黑',sans-serif;
+}
+.footer-top{
+    font-size: 20px;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.footer-top img{
+    margin-right: 18px;
+}
+.footer-top-1{
+    width: 100px;
+}
+.footer-top>div{
+    float: left;
+}
+hr{
+    border: 0;
+    height: 1px;
+    width: 3px;
+    background: #999;
+    margin:  0 auto;
+}
+.footer-bottom{
+    width:930px;
+    height: 112px;
+    margin: 0 auto;
+}
+.footer-bottom>div{
+    width: 345px;
+    height: 97px;
+    float: left;
+    padding: 15px 0 0 0;
+}
+.footer-bottom2 img,.footer-bottom2 span{
+    float: left;
+    margin: 8px 0 0 0 ;
+}
+.footer-bottom2 p{
+    line-height: 25px;
+}
+.footer-bottom2 span{
+    margin: 0 0 0 40px;
+}
+
+.left-gai{
+    height: 180px;
+}
+/*左边*/
+.content-left-top{
+    font-family: '微软雅黑',sans-serif;
+    width: 253px;
+    height: 1493px;
+    background: rgba(0,0,0,0.5);
+}
+/*路径导航*/
+.ways,.ways a{
+    font-size: 12px;
+    color: #656565;
+}

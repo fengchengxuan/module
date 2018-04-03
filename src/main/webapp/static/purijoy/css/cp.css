@@ -1,0 +1,887 @@
+html{overflow-y:scroll;}
+body{margin:0; font:12px "\5B8B\4F53",san-serif;}
+
+
+div,ul,li{padding:0; margin:0;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+
+/* box *//*放大镜*/
+.box{width:560px;}
+.tb-pic a{display:table-cell;text-align:center;vertical-align:middle;}
+.tb-pic a img{vertical-align:middle;}
+.tb-pic a{*display:block;*font-family:Arial,sans-serif;*line-height:1;}
+.tb-thumb{margin:10px 0 0;overflow:hidden;}
+.tb-thumb li{background:none repeat scroll 0 0 transparent;float:left;height:75px;margin-left:10px;overflow:hidden;width: 104px;
+
+}
+.tb-thumb li:first-child{
+    margin-left: 0;
+}
+.tb-s310, .tb-s310 img{height: 400px}
+
+.tb-s40, .tb-s40 a{height:75px;width:104px;}
+.tb-booth{border:1px solid #CDCDCD;position:relative;z-index:1;}
+.tb-thumb .tb-selected div{background-color:#FFFFFF;border:medium none;}
+.tb-thumb li div{border:1px solid #CDCDCD;width: 104px;height: 75px;
+}
+.tb-thumb .tb-selected{
+    opacity: 1;
+    box-sizing: border-box;
+    border: 2px solid #C30008;
+    height:75px;
+    width: 104px;
+}
+#thumblist{
+}
+div.zoomDiv{z-index:999;position:absolute;top:0;left:0;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+div.zoomMask{position:absolute;background:url("../../../static/purijoy/images/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}
+
+
+
+
+
+
+#nav ul li .lia1{
+    color: #49B343;
+}
+#footer{
+    clear: both;
+}
+/*aa*/
+#product-header{
+    width: 1200px;
+    background: white;
+    margin: 20px auto 0 auto;
+}
+#product-left{
+    height:550px;
+    width: 590px;
+    float: left;
+    background: #fff;
+}
+#product-right{
+    background: white;
+    width: 610px;
+    height: 550px;
+    float: right;
+}
+.pc-img{
+    width: 560px;
+    height: 400px;
+}
+.cp-h2{
+    width: 481px;
+    height: 24px;
+    margin-top:2px;
+}
+.cp-h2 h2{
+    width: 612px;
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+}
+.cp-xtitle{
+    color:#E3393B;
+    font-size: 12px;
+    line-height: 35px;
+    position: relative;top: -5px;
+}
+.cp-time{
+    width: 588px;
+    height: 37px;
+    background: url("../../../static/purijoy/images/cp-time-bg.jpg") no-repeat;
+    margin-top: -10px;
+}
+
+.cp-time-box{
+    width: 588px;
+    height: 112px;
+    background: url("../../../static/purijoy/images/cp-time-bg-box.jpg") no-repeat;
+}
+.cp-duiqi{
+    margin-left: 10px;
+    width: 55px;
+    height: 19px;
+    text-align: justify;
+    justify-content:space-between;
+    text-align-last:justify;
+    color: #999;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+}
+.cp-div-p{
+    width: 422px;
+    height: 62px;
+    float: right;
+    color: #E3393B;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 90px;
+    margin-top: 10px;
+
+}
+s{
+    text-decoration:line-through;
+}
+.s{
+    font-size: 12px;
+    color: #666;
+}
+.cp-pt{
+
+    position: relative;
+    left: 10px;
+    color: #f76188;
+    font-size: 22px;
+}
+.cp-duiqi-right{
+
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+    margin-left: 10px;
+}
+#thumblist img{
+    width: 104px;
+    height: 75px;
+    float: left;
+}
+.tb-booth img{
+    width: 558px;
+    height: 400px;
+}
+.tb-select0{
+    opacity: 0.7;
+}
+
+
+
+.cp-gwuc button{
+    width: 142px;
+    height: 46px;
+    border: 0;
+    background: #ee2533;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.scheme span{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 26px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #999;
+    margin-right: 20px;
+}
+.scheme span:last-child{
+    margin-top: 10px;
+}
+span.active{
+    border: 1px solid #e33a3d;
+}
+.pay li.money span{
+    font-size: 36px;
+    color: #FF0000;
+    font-weight: 600;
+}
+
+#colockbox1 span{
+    width: 24px;
+    height: 24px;
+    background: #453c3c;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 4px;
+}
+
+.lidiyi-box2 p,.lidiyi-box1 p,.lidiyi-box3 p{
+    line-height: 23px;
+}
+.lidiyi-box2,.lidiyi-box1,.lidiyi-box3{
+
+    color: #666;
+    font-size: 12px;
+    float:left;
+    margin-left: 50px;
+}
+
+.lidiyi-box1{
+    margin-top: 20px;
+}
+.lidiyi-box1{
+    width: 300px;
+    height: 248px;
+
+}
+.lidiyi-box2{
+    width: 363px;
+    height: 151px;
+
+    margin-top: 42px;
+}
+.lidiyi-box3{
+    width: 367px;
+    height: 203px;
+
+    margin-top: 42px;
+}
+
+
+/*第一部分*/
+
+#content{
+    width: 1200px;
+    clear: both;
+    margin: 0 auto;
+}
+/*清浮动---clearfix*/
+
+.wrap{
+    width: 1200px;
+    color: #666;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+.blist {
+    width: 1200px;
+    height: 40px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #f76188;
+}
+.blist .lia:first-child{
+    border-left: none;
+}
+.blist .lia{
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    /*鼠标样式改变为一个手*/
+    cursor: pointer;
+    /*字体免选中*/
+    -webkit-user-select: none;
+}
+.blsit-list{
+    width: 275px;
+}
+.blsit-list .li{
+    list-style: none;
+    width: 275px;
+    height: 200px;
+}
+.wrap .blist .lia:hover{
+    color: #f76188;
+}
+.wrap .blist .lia.active{
+    color: white;
+    background: #f76188;
+    height: 40px;
+}
+.blsit-list .li:first-child{
+    display: block;
+}
+.blsit-list .li{
+    display: none;
+}
+.lidiyi{
+    width: 1200px;
+    height: 245px;
+    background: #ffffff;
+    margin: 0 auto;
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*中间左侧boxtab*/
+.content_cLeft{
+    width: 460px;
+    float: left;
+    margin-top: 10px;
+}
+.content_cCenter{
+    width: 460px;
+    margin-left: 480px;
+}
+.box a{blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+:focus{outline:0;}
+.tab_menu{
+    width: 1200px;
+    overflow:hidden;
+    border-bottom: 1px solid #f76188;
+    background: #F7F7F7;
+    font-size: 14px;
+    color: #666;
+    border-right: 1px solid #eeeeee;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+.tab_menu li{
+    width:105px;
+    float:left;
+    margin-left: 10px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+}
+.tab_menu li:hover{
+    color: #f76188;
+}
+.tab_menu li:first-child{margin-left: 0;}
+.tab_menu li.current{
+    color: white;
+    height: 40px;
+    background: #f76188;
+}
+.tab_menu li a{
+    font-size: 16px;
+    color:#999;
+    text-decoration:none;
+    letter-spacing: 1px;
+}
+
+
+.tab_box_header{
+    height: 140px;
+
+}
+.tab_box_header img{
+    width: 1200px;
+
+}
+.tab_box_header .right{
+    float: right;
+}
+.tab_box_header .right .title a{
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+}
+.tab_box_header .right .title a:hover{
+    color: #EB2323;
+}
+.tab_box_header .right .text{
+    width: 268px;
+    font-size: 12px;
+    color: #656565;
+    text-indent: 2em;
+    line-height: 21px;
+    text-align: justify;
+    /*对齐*/
+    text-justify: inter-ideograph;
+}
+.info a{
+    font-size: 12px;
+    color: #656565;
+}
+.info a:hover{
+    color: #EB2323;;
+}
+.tab_box_list ul li{
+    height: 40px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+.tab_box_list ul li:last-child{border-bottom: none;}
+.tblist_date{
+    width: 60px;
+    height: 40px;
+    float: left;
+    background: #f2f2f2;
+    text-align: center;
+    color: #656565;
+}
+.tblist_date .date_day{
+    display: block;
+    font-size: 24px;
+}
+.tblist_date .date_ym{
+    display: block;
+    font-size: 12px;
+}
+.tab_box_lcon{
+    width: 386px;
+    float: right;
+    text-align: left;
+    margin-left: 3px;
+}
+.tlist_title a{
+    font-size: 14px;
+    color: #656565;
+    letter-spacing: 1px;
+}
+.tlist_title a:hover{
+    color: #EB2424;
+}
+.tlist_text{
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7F7F7F;
+}
+.tab_box .hide{display:none;}
+
+/*第二*/
+.li-conten{
+
+    height: auto;
+}
+.li-left{
+    width: 840px;
+    height: 1500px;
+}
+.li-right{
+    float: right;
+    width: 300px;
+    height: 800px;
+    background: pink;
+}
+.li-left-img1{
+    background: url("../../../static/purijoy/images/li-left01.jpg");
+}
+.li-left-img2{
+    background: url("../../../static/purijoy/images/li-left03.jpg");
+}
+.li-left-img3{
+    background: url("../../../static/purijoy/images/li-left03.jpg");
+}
+#footer{
+    clear: both;
+}
+.cp-dier{
+    height: 5000px;
+}
+.hide-dier img{
+    width: 999px;
+}
+.maiji-a a{
+    display: block;
+    font-size: 16px;
+    color: #e43a3d;
+    width: 160px;
+    height: 40px;
+    background: #f7f7f7;
+    border: 1px solid #e43a3d;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 4px;
+}
+.maiji-a a:hover{
+    background: #e43a3d;
+    color: white;
+}
+
+
+
+
+
+
+
+/*第三*/
+.li-left-yh{
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+.li-left-p{
+    line-height: 26px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 13px;
+}
+.li-left-img{
+    width: 220px;
+    height:147px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.li-left-p2{
+    color: #999;
+    font-size: 12px;
+    line-height: 44px;
+}
+
+
+
+
+
+
+#nav ul li .lia1{
+    color:#333;
+}
+#nav ul li .lia2{
+    color: #4bb345;
+}
+
+
+
+.div22{
+    position:fixed;
+    top:11731px;
+    z-index:99999;
+}
+
+
+
+
+
+
+
+
+
+/*产品页*/
+.lim_quality img{
+    width: 12px;
+}
+.ng-scope{
+    background: #feeff3;
+}
+body{
+    background: #feeff3;
+}
+.tab_box_header{
+    height: 1568px;
+    background: #fff;
+}
+/*限量秒拍*/
+.Limited{
+    height: 417px;
+    margin-top: 10px;
+}
+.Limited ul li.lims{
+    width: 285px;
+    height: 417px;
+    background: #fff;
+    border-radius: 6px 6px 0 0;
+    /*float: left;*/
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.Limited ul li.lims:hover{
+    box-shadow: 0 5px 15px 1px #f1c1cd;
+}
+.Limited ul li.lims:first-child{
+    margin-left: 0;
+}
+.lims_top,.lims_top img{
+    width: 285px;
+    height: 200px;
+}
+.lims_top img{
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+}
+.lims_top{
+    position: relative;
+}
+.limhi{
+    width: 285px;
+    height: 40px;
+    position: absolute;
+    bottom: -10px;
+    background: rgba(0,0,0,0.5);
+}
+.limhi img{
+
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    float: left;
+}
+.limhi span{
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.limhi button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: #DC2A2A;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.limlist{
+    margin-top: 10px;
+}
+.limlist ul li{
+    margin-top: 1px;
+}
+.limlist ul li:first-child{
+    margin-top: 0;
+}
+.limtitle{
+    width: 285px;
+    height: 26px;
+    background: #DBDBDB;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+.limtle1{
+    background: #F75F87;
+}
+.limcon{
+    height: 101px;
+    display: none;
+}
+.limcn1{
+    display: block;
+}
+.limcon_text{
+    font-size: 12px;
+    color: #656565;
+    padding-top: 8px;
+    line-height: 20px;
+    margin-left: 35px;
+}
+.limcon_text div span{
+    display: block;
+    width: 125px;
+    float: left;
+}
+.lim_quality{
+    width: 103px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #656565;
+}
+.lim_quality div{
+    height: 20px;
+}
+
+
+
+/*文章列表*/
+.li-left{
+    width: 895px;
+    height: 1300px;
+
+    float: left;
+}
+.Limited{
+    float: left;
+    margin-left: 20px;
+}
+.content_bg{
+    height: 1320px;
+}
+#footer{
+    position: relative;
+    top: 20px;
+    clear: both;
+}
+.li-textbox{
+    margin-bottom: 20px;
+    height: 194px;
+    width: 895px;
+    background: white;
+}
+.l-t{
+    width: 260px;
+    height: 194px;
+    float: left;
+}
+.r-t{
+    width: 600px;
+    height: 160px;
+    float: left;
+    margin-top: 15px;
+}
+.l-t img{
+    margin: 20px;
+}
+.r-t a{
+    color: #2586E0;
+    font-size: 14px;
+}
+.text{
+    line-height: 24px;
+    text-indent: 20px;
+    color: #666;
+    font-size: 14px;
+}
+.li-textbox:hover{
+    box-shadow: 0 2px 10px -1px #f76188;
+}
+.p-title{
+    width: 400px;
+    font-size: 18px;
+    color: #333;
+    line-height: 34px;
+}
+.li-textbox:hover .p-title{
+    color: #F75F86;
+
+}
+.riqi{
+    float: right;margin-top: -23px;
+    color: #999;
+    font-size: 12px;
+}
+.li-right{
+    width: 288px;
+    position: relative;left: 0;
+    background: white;
+}
+.li-right .lims{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.limlist .lims{
+    margin-left: 13px;
+    border: 1px solid #ccc;
+}
+#content{
+    background: white;
+}
+.hide{
+    background: white;
+}
+.header{
+    background: #fff;
+}
+
+/*弹框*/
+#modal{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    width: 638px;
+    height:423px;
+    border-radius: 6px;
+    background: #fff;
+    display: none;
+    overflow: hidden;
+    z-index: 9;
+}
+.modal_top{
+    width: 638px;
+    height: 101px;
+    background: url("../../../static/purijoy/images/mo_t.png");
+}
+.modal_content{
+    width: 450px;
+    margin: 15px auto 0 auto;
+}
+.modal_test{
+    width: 450px;
+    height: 50px;
+    font-size: 16px;
+    color: #333;
+}
+.modal_bleft{
+    width: 180px;
+    float: left;
+}
+.modal_btns{
+    margin-top: 30px;
+}
+.modal_btns .modalbtn,.modal_weixin{
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #F75F87;
+    background: #fff;
+    font-size: 14px;
+    color: #F75F86;
+}
+.modal_btns .modalbtn,.modal_gwang{
+    cursor: pointer;
+}
+.modal_btns .modalbtn:hover{
+    background: #F75F87;
+    color: #ffffff;
+}
+.modal_bright{
+    width: 180px;
+    float: right;
+}
+.modal_btmao{
+    margin-top: 20px;
+}
+.modal_gwang{
+    background: #159AE6;
+    border: none;
+    width: 179px;
+    height: 43px;
+    border-radius: 4px;
+    margin-top: 47px;
+    font-size: 16px;
+    color: #fff;
+}
+.modal_wei,.modal_wei img{
+    width: 150px;
+    height: 140px;
+}
+.modal_wei{
+    margin-top: 15px;
+}
+.modal_wei img{
+    margin-left: 15px;
+}
+/*按钮*/
+.control {
+    height: 32px;
+    width: 32px;
+    outline: 0;
+    float: right;
+    margin-top: 6px;
+    margin-right: 6px;
+    cursor: pointer;
+    z-index: 10001;
+    background: url("../../../static/purijoy/images/close.png");
+}

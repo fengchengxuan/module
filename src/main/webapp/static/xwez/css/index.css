@@ -1,0 +1,245 @@
+#container {
+    position: relative;
+    top: -50px;
+    z-index: 0;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+.sections,.section {
+    height:100%;
+}
+#container,.sections {
+    position: relative;
+}
+.section {
+    background-color: #000;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    color: white;
+}
+#section0 {
+    background-image: url('../../../static/xwez/images/index-banner1.jpg');
+}
+#section1 {
+    background-image: url('../../../static/xwez/images/index-banner2.jpg');
+}
+#section2 {
+    background-image: url('../../../static/xwez/images/index-banner3.jpg');
+}
+
+.pages li{list-style-type:none;width:10px;height:10px;border-radius:10px;background-color:white}
+.pages li:hover{box-shadow:0 0 5px 2px white}
+.pages li.active{background-color: #1d8be8;
+}
+.pages{position:absolute;z-index:999}
+.pages.horizontal{left:50%;transform:translateX(-50%);bottom:5px}
+.pages.horizontal li{display:inline-block;margin-right:10px}
+.pages.horizontal li:last-child{margin-right:0}
+.pages.vertical{right:5px;top:50%;transform:translateY(-50%)}
+.pages.vertical li{margin-bottom:10px}
+.pages.vertical li:last-child{margin-bottom:0}
+
+
+
+
+body{
+    background: #f5f5f5;
+}
+#header{
+    width: 100%;
+    height: 650px;
+}
+#content{
+    width: 1200px;
+    min-height:1100px;
+    margin: 0 auto;
+}
+.box-lt1{
+    float: left;
+    width: 590px;
+    height:775px ;
+    margin-top: 10px;
+    background: white;
+}
+.box-lt2{
+    margin-left: 20px;
+}
+#box-3{
+    clear: both;
+    width: 320px;height: 100px;
+}
+.box-lt1 .box-lt1-ct{
+    width: 549px;height: 585px;
+    padding: 20px;
+}
+.ix-textimg{
+    width: 186px;
+    height: 140px;
+    float: left;
+}
+.ix-text1{
+    width: 350px;
+    height: 160px;
+    float: right;
+}
+.ix-textimg-1 img{
+    width: 133px;
+    height: 100px;
+    float: left;
+}
+.ix-text1-1{
+    width: 410px;
+    height: 100px;
+    float: right;
+}
+
+.t-p{
+    width: 556px;
+    height: 100px;
+    margin-top: 10px;
+    clear: both;
+}
+.h1 .span{
+    float: right;
+    font-size: 12px;color: #666;
+}
+.h1{
+    font-size: 14px;color: #333;line-height: 30px
+}
+.ix-text1-1>a:link,.ix-text1>a:link{
+    color: #333;
+    text-decoration: none;
+}
+
+.ix-text1-1-p{
+    color: #666;text-indent: 26px;text-align: justify
+}
+
+#footer{
+    position: relative;top: 0;
+}
+.box-lt1o{
+    background: #f5f5f5;
+    width: 590px;height: 144px;
+}
+.ix-text1 .ix-text1-1-p{
+    font-size: 14px;
+}
+
+
+/*TAB*/
+.box-lt1-tzk{
+    height: 50px;width: 590px;background: #f5f5f5;
+}
+.box-lt1-tzk>div{
+    height: 30px;
+    width: 100px;position: relative;top: 20px;
+}
+.tabX,.box-lt2{
+    height: 688px;
+}
+
+.box-lt2 .wyshb-tab2{
+    padding: 0;
+    float: right;
+    width: 463px;
+    height: 265px;
+    margin-top: -584px;
+    position: relative;left: -20px;
+}
+.ix-text1-1-ptab2,.h1tab2{
+    width: 318px;
+}
+.ix-text1-1-ptab1{
+    width: 264px;
+}
+.aa{
+    width: 285px;
+}
+.bb{
+    width: 482px;
+}
+.cc{
+    width: 338px;
+}
+.index-bm{
+    height: 70px;width: 100%;background: #6d6d71
+}
+.index-bm>div{
+    width: 1180px;height: 70px;margin: 0 auto;font-size: 16px;color: white;padding-left:20px;
+}
+.index-bm>div img{
+    margin-left: 40px;
+    position: relative;top: 15px;
+}
+.t-p .ix-text1-1  a:first-child{
+    /*color: #1B89E7;*/
+    text-decoration: none;
+}
+.h1 span{
+    color: #333;
+}
+/*TAB*/
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+.blist {
+    width: 590px;
+}
+.blist li:first-child{
+}
+.blist li{
+    position: relative;
+    top: 4px;
+    padding:  0 0 0 13px;
+    list-style: none;
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;
+    color: white;
+    float: left;
+    /*鼠标样式改变为一个手*/
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.wrap ul{
+    list-style: none;
+}
+.blsit-list li{
+    list-style: none;
+}
+
+.wrap .blist li.active{
+    width: 100px;
+    height:30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+    position: relative;z-index: 5;
+    top: 0;
+}
+.blsit-list li:first-child{
+    display: block;
+}
+.blsit-list li{
+    display: none;
+}
+/*选项卡*/
+
+
+
+.ix-text1-1-p  a{
+    text-decoration: none;
+    color: #1B89E7;
+}

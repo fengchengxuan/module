@@ -1,0 +1,370 @@
+#content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.content_top{
+    height: 404px;
+}
+/*产品信息*/
+.top_left{
+    width: 400px;
+    height: 404px;
+    float: left;
+}
+.product_ltop{
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    background: #F16969;
+    color: #ffffff;
+}
+.product_ltop span{
+    padding-left: 10px;
+}
+.top_left_inner{
+    padding: 0 8px 0 15px;
+}
+.product_ltitle{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    padding: 15px 0 5px 0;
+}
+.product_linfo{
+    font-size: 14px;
+    color: #333333;
+    padding: 10px 0 0 0;
+}
+.product_price{
+    color: #E52B2B;
+}
+.product_protect{
+    margin-top: 18px;
+    height: 60px;
+}
+.product_protect img{
+    width: 63px;
+    height: 60px;
+    float: left;
+}
+.product_ptext{
+    float: left;
+    height: 60px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #0a9150;
+}
+.product_ptext span{
+    margin-left: 15px;
+}
+.product_buy_number{
+    margin-top: 20px;
+    height: 26px;
+}
+.product_buy_number div{
+    float: left;
+}
+.product_buy_number .title{
+    font-size: 14px;
+    color: #333333;
+    line-height: 26px;
+}
+.product_buy_number a{
+    float: right;
+    margin: 2px 50px 0 0;
+}
+.number{
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 2px;
+    border: 1px solid #D2D2D2;
+}
+.number button,.number input{
+    float: left;
+}
+.product_buy_number input{
+    width: 70px;
+    border: none;
+    height: 24px;
+    text-align: center;
+}
+.product_buy_number input:focus{
+    outline: none;
+}
+.product_buy_number button{
+    border: none;
+    width: 25px;
+    height: 24px;
+    cursor: pointer;
+}
+.product_buy_number button:focus{
+    outline: none;
+}
+.product_buy_number #reduce{
+    background: url(../../../static/jzt/images/reduce.jpg)no-repeat;
+}
+.product_buy_number #plus{
+    background: url(../../../static/jzt/images/plus.jpg)no-repeat;
+}
+.top_left_inner hr{
+    width: 376px;
+    height: 0;
+    background: none;
+    border: none;
+    margin: 20px 0;
+    position: relative;
+    left: -3px;
+    border-bottom: 1px dashed #D2D2D2;
+}
+.product_lbuy button{
+    width: 100px;
+    height: 34px;
+    background: #D22020;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*右上图*/
+.top_right{
+    width: 790px;
+    float: right;
+}
+.fslider {
+    float: left;
+    position: relative;
+    width: 800px;
+    height: 404px;
+    overflow: hidden;
+    zoom: 1;
+}
+.slides{
+    width: 800px;
+    position: absolute;
+    left: 190px;
+}
+.fsimg{
+    width: 180px;
+    float: left;
+}
+.fcnav {
+    text-align: center;
+}
+
+.fcnav li{
+    width: 180px;
+    height: 93px;
+    margin-top: 10px;
+}
+.fcnav li:first-child{
+    margin-top: 0;
+}
+.fcnav li:first-child{
+    margin-left: 0;
+}
+.fcpaging li.active a span{
+    display: none;
+}
+.fcpaging li a {
+    display: block;
+    height: 93px;
+    width: 180px;
+    cursor: pointer;
+}
+.fcpaging li a img{
+    height: 93px;
+    width: 180px;
+}
+
+.fcpaging li a.flex-active,
+.fcpaging li.active a {
+    background-position: 0 0;
+}
+.fcpaging li.active a img{
+    display: block;
+    border: 2px solid #1F85DA;
+    box-sizing: border-box;
+}
+.fslider .slides li{
+    width: 600px;
+    height: 402px;
+}
+.fslider .slides a img{
+    width: 598px;
+    height: 402px;
+    display: block;
+}
+
+/*产品图*/
+.content_main{
+    width: 1200px;
+    margin: 20px 0 0 0;
+}
+.product .tab_menu{
+    height: 40px;
+    border: 1px solid #D2D2D2;
+}
+.product .tab_menu li{
+    width: 120px;
+    height: 40px;
+    float: left;
+}
+.product .tab_menu li a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    color: #656565;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+.product .tab_menu li.current a{
+    border-top: 2px solid #00A1E9;
+    border-left: 1px solid #00A1E9;
+    border-right: 1px solid #00A1E9;
+    box-sizing: content-box;
+}
+.product .tab_menu li.current a:before{
+    content: "";
+    width: 58%;
+    height: 4px;
+}
+.product .tab_menu li.current a:after{
+    content: "";
+    border-top: 6px solid #00A1E9;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 48%;
+}
+.tab_box .hide{
+    display: none;
+}
+
+/*商品档案*/
+.archives{
+    margin: 10px 0 0 0;
+    width: 1198px;
+    height: 240px;
+    border: 1px solid #D2D2D2;
+    font-size: 14px;
+    color: #656565;
+}
+.archives ul{
+    float: left;
+    margin: 30px 0 0 60px;
+}
+.archives ul li{
+    line-height: 30px;
+}
+.archives ul li span{
+    display: block;
+    float: left;
+    width: 56px;
+    text-align:justify;
+    text-justify: inter-ideograph;/*解决IE的支持*/
+    text-align-last:justify;/*解决IE的支持*/
+}
+.archives_imgs ul li{
+    margin-top: 10px;
+}
+.archives_imgs ul li.margint1{
+    margin-top: 20px;
+}
+.archives_imgs ul li img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*DIY美食*/
+.DIY_food{
+    width: 1200px;
+    overflow: hidden;
+}
+.DIY_food ul li{
+    margin: 10px 0 0 0;
+}
+
+/*采购记录*/
+.history{
+    width: 1200px;
+    height: 30px;
+    margin: 20px 0 0 0;
+    background: #FBFBFB;
+    border: 1px solid #D2D2D2;
+}
+.history>div{
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+    color: #656565;
+    margin: 0 0 0 50px;
+}
+.hnumber{
+    color: #E92C2C;
+}
+.buylists{
+    padding:20px 80px 0 50px;
+    height: 115px;
+}
+.bleft{
+    width: 100px;
+    float: left;
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+}
+.bright{
+    width: 928px;
+    float: right;
+}
+.evaluate{
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+}
+.purchase{
+    font-size: 12px;
+    color: #656565;
+    line-height: 20px;
+    margin: 25px 0 0 0;
+}
+.purchase>div{
+    height: 20px;
+}
+.purchase>div>div{
+    float: left;
+    margin: 0 20px 0 0;
+}
+.purchase div div span.blue{
+    color: #00A1E9;
+}
+.purchase div div span.red{
+    color: #D21F1F;
+}
+.buy_history hr{
+    width: 1200px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #E3E3E3;
+    margin: 20px 0 0 0;
+}
+.buy_history button{
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    background: #CBCBCB;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,140 @@
+.bagr{
+    width: 100%;
+    height: 30px;
+    background: #f5f5f5;
+}
+.reportway{
+    width: 1200px;
+    height: 30px;
+    padding-right: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 12px;
+    color: #656565;
+}
+/*中间部分*/
+#content{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 5px 0 10px 0;
+}
+#zkcontent{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;;
+}
+.zkcontent_c{
+    padding: 5px 0 10px 5px;
+    width: 1190px;
+    margin: 0 auto;
+}
+.zkcontent_cboxl,.zkcontent_cboxc{
+    width: 450px;
+    border: 1px solid #dedede;
+    padding-bottom: 5px;
+}
+.zkcontent_cboxl{
+    float: left;
+}
+.zkcontent_cboxc{
+    margin-left:460px;
+}
+.zkcontent-boxl-titles{
+    width: 450px;
+    height: 50px;
+    border-bottom:1px solid #dedede;
+}
+.zkcontent-boxl-title1{
+    width: 137px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #27b1eb, #60bfe7); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(0deg, #27b1eb, #60bfe7); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(0deg, #27b1eb, #60bfe7); /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, #27b1eb, #60bfe7);
+    margin: 5px 0 0 5px;
+    float: left;
+}
+.zkcontent-boxl-title2{
+    width: 280px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 160px;
+    font-size: 16px;
+}
+.zkcontent-box-content img{
+    float: left;
+    width: 160px;
+    height: 120px;
+    margin-left: 8px;
+}
+.zkcontent-boxc-text{
+    width: 265px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+    margin: 3px 0 0 178px;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+/*详细*/
+.sbcinfo{
+    color: #23a7e5;
+}
+
+/*列表*/
+.zkcontent-box-list{
+    margin: 5px 0 0 10px;
+}
+.zkcontent-box-list ul li{
+    height: 28px;
+    line-height: 28px;
+    width: 430px;
+    border-bottom: 1px dashed #ccc;
+}
+.zkcontent-box-list ul li img{
+    margin-left: 3px;
+}
+.zkcontent-box-list ul li a{
+    font-size: 14px;
+    color: #333333;
+    margin-left: 8px;
+}
+.zkcontent-box-list ul li a:hover{
+    border-bottom: 1px solid royalblue;
+    color: #1E4FAD;
+}
+/*日期*/
+.sbldate{
+    font-size: 12px;
+    float: right;
+}
+
+/*荣誉榜*/
+.zkcontent-cboxr{
+    padding-top: 5px;
+    width: 275px;
+    height: 851px;
+    float: right;
+    background: url("../../../static/lxyz/images/yrb.jpg")bottom no-repeat;
+}
+.zkcontent-cboxr-list{
+    width: 200px;
+    margin: 70px auto 0 auto;
+}
+.zkcontent-cboxr-lname{
+    text-align: center;
+    font-size: 12px;
+    color: #DB9314;
+}
+.zkcontent-cboxr-list img{
+    margin-top: 15px;
+}
